@@ -8,7 +8,7 @@
   </head>
   <body>
 
-    <h1>Initial Bootstrap 3 Template</h1>
+    <h1>Initial Bootstrap 3 Configuration</h1>
     <p>This is the starting point for A. Mitchell Bullard's homepage.</p>
 
     <script src="_/js/bootstrap.js"></script>
