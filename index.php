@@ -7,7 +7,7 @@
 <body>
 
   <h1>www.ambullard.com</h1>
-  <p>This is the homepage.>
+  <p>This is the homepage.</p>
 
 </body>
 </html>
