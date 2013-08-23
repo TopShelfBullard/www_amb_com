@@ -1,15 +1,17 @@
-@media all {
+@black: #000;
+@measure: 20px;
+ 
   body {
-    background-color: #000;
+    background-color: @black;
   }
 
   .container {
     background-color: #fff;
-    min-width: 300px;
+    min-width: 350px;
   }
 
   a {
-    color: #000;
+    color: @black;
     font-weight: bold;
   }
 
@@ -17,36 +19,41 @@
     text-align: center;
   }
 
-  blockquote {
+  .heading {
     text-align: center;
   }
 
   p {
     text-align: justify;
   }
-}
 
 .content_nav {
-  padding-bottom: 20px;
+  padding-bottom: @measure;
 }
 
 .tech_p1 {
   @media all and (max-width: 992px) {  
-    padding-top: 20px;
+    padding-top: @measure;
   }
 }
   
 .prose_p2 {
   @media all and (min-width: 992px) {  
-    padding-bottom: 20px;
+    padding-bottom: @measure;
   }
 }
 
 .music_p1 {
   @media all and (max-width: 992px) {  
-    padding-top: 40px;
+    padding-top: @measure * 2;
   } 
   @media all and (min-width: 992px) {  
-    padding-top: 60px;
+    padding-top: @measure * 3;
   } 
+}
+
+.test {
+  @media all and (max-width: 500px) {
+    display: none;
+  }
 }
