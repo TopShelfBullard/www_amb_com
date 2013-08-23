@@ -9,49 +9,8 @@
   <body id="body_home">
     <div class="container">
 
-<!-- heading -->       
-      <section class="heading_row row">
-        <div class="heading_ column col col-lg-4 col-lg-offset-4 col-md-5 col-md-offset-4 col-sm-6 col-sm-offset-3">
-          
-          <h1>A. Mitchell Bullard</h1>
-          
-          <p class="heading">
-            developer, writer, musician,
-            <br>
-            all around creativity addict
-          </p>
-
-        </div> <!--  end heading_column -->
-      </section> <!-- end heading_row -->
-
-
-<!-- navigation bar -->
-      <div class="top_nav navbar hidden-xs">
-        <ul class="nav nav-pills nav-justified">              
-  
-          <li class="disabled">
-            <a>HOME</a>             
-          </li>
-
-          <li>
-            <a href="#">TECH</a>             
-          </li>
-                           
-          <li>
-            <a href="#">MUSIC</a>             
-          </li>
-            
-          <li>
-            <a href="#">WRITING</a>             
-          </li>
-            
-          <li>
-            <a href="#">BLOG</a>             
-          </li> 
-
-        </ul> 
-      </div> <!-- end top_nav -->
-
+      <?php include '_/components/php/header.php'; ?>
+      <?php include '_/components/php/top_nav.php'; ?>
 
 <!-- content -->      
       <div class=".content_navbar navbar">
@@ -102,7 +61,9 @@
 
 <!-- content column two -->
           <section class="right_content_container">
-            <div class="right_content_column col col-lg-6 col-md-6 col-sm-6 col-xs-6">                  
+            <div class="right_content_column col col-lg-6 col-md-6 col-sm-6 col-xs-6"> 
+
+             
               <li class="content_nav">
                 <a href="#">
                   <h1>PROSE</h1>

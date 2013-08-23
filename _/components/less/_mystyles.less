@@ -1,32 +1,44 @@
 @black: #000;
 @measure: 20px;
  
-  body {
-    background-color: @black;
-  }
+body {
+  background-color: @black;
+}
 
-  .container {
-    background-color: #fff;
-    min-width: 350px;
-  }
+.container {
+  background-color: #fff;
+  min-width: 350px;
+} 
 
-  a {
-    color: @black;
-    font-weight: bold;
-  }
+a {
+  color: @black;
+  font-weight: bold;
+}
 
-  h1 {
-    text-align: center;
-  }
+h1 {
+  text-align: center;
+}
 
-  .heading {
-    text-align: center;
-  }
+p {
+  text-align: justify;
+}
 
-  p {
-    text-align: justify;
-  }
+.heading {
+  text-align: center;
+}
 
+#banner_quotes {
+text-align: center;
+}
+
+.quotes {
+  padding-top: @measure;
+  display: none;
+}
+
+.top_navbar {
+  padding-top: @measure * 2;
+}
 .content_nav {
   padding-bottom: @measure;
 }
@@ -50,10 +62,4 @@
   @media all and (min-width: 992px) {  
     padding-top: @measure * 3;
   } 
-}
-
-.test {
-  @media all and (max-width: 500px) {
-    display: none;
-  }
 }
