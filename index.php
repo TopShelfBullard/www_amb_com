@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>AMB - home</title>
+    <title>AMB - HOME</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="_/css/bootstrap.css" rel="stylesheet" media="screen">
     <link href="_/css/mystyles.css" rel="stylesheet" media="screen">
   </head>
-  <body id="body_home">
+  <body id="body_music">
     <div class="container">
 
       <?php include '_/components/php/header.php'; ?>
@@ -21,7 +21,7 @@
             <div class="left_content_column col col-lg-6 col-md-6 col-sm-6 col-xs-6">                    
 
               <li class="content_nav">
-                <a href="#">
+                <a href="tech.php">
                   <h1>TECH</h1>
                 </a>             
                 <img  src="images/tech.png" alt="Developing in the sun on his Mac" width="100%" class="tech_img">
@@ -41,7 +41,7 @@
               </li>
 
               <li class="content_nav">
-                <a href="#">
+                <a href="music.php">
                   <h1>MUSIC</h1>
                 </a>
                 <img  src="images/music.png" alt="Playing guitar for his children" width="100%" class="music_img"> 
@@ -65,7 +65,7 @@
 
              
               <li class="content_nav">
-                <a href="#">
+                <a href="prose.php">
                   <h1>PROSE</h1>
                 </a>
                 <p class="prose_p1 hidden-xs">
@@ -82,7 +82,7 @@
               </li>
 
               <li class="content_nav">
-                <a href="#">
+                <a href="http://bullardamitchell.wordpress.com/">
                   <h1>BLOG</h1>
                 </a>
                 <p class="blog_p1 hidden-xs">

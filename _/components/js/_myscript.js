@@ -8,99 +8,99 @@ $(document).ready(function() {
     number = Math.random();  
     
     switch (true) {
-      case number <= 0.04:
+      case number <= .04:
         quote = $("#quote1");
         break;
       
-      case number <= 0.08:
+      case number <= .08:
         quote = $("#quote2");
         break;
 
-      case number <= 0.012:
+      case number <= .012:
         quote = $("#quote3");
         break;
 
-      case number <= 0.16:
+      case number <= .16:
         quote = $("#quote4");
         break;
 
-      case number <= 0.2:
+      case number <= .2:
         quote = $("#quote5");
         break;
 
-      case number <= 0.24:
+      case number <= .24:
         quote = $("#quote6");
         break;
 
-      case number <= 0.28:
+      case number <= .28:
         quote = $("#quote7");
         break;
 
-      case number <= 0.32:
+      case number <= .32:
         quote = $("#quote8");
         break;
 
-      case number <= 0.36:
+      case number <= .36:
         quote = $("#quote9");
         break;
 
-      case number <= 0.40:
+      case number <= .40:
         quote = $("#quote10");
         break;
 
-      case number <= 0.44:
+      case number <= .44:
         quote = $("#quote11");
         break;
       
-      case number <= 0.48:
+      case number <= .48:
         quote = $("#quote12");
         break;
 
-      case number <= 0.52:
+      case number <= .52:
         quote = $("#quote13");
         break;
 
-      case number <= 0.56:
+      case number <= .56:
         quote = $("#quote14");
         break;
 
-      case number <= 0.60:
+      case number <= .60:
         quote = $("#quote15");
         break;
 
-      case number <= 0.64:
+      case number <= .64:
         quote = $("#quote16");
         break;
 
-      case number <= 0.68:
+      case number <= .68:
         quote = $("#quote17");
         break;
 
-      case number <= 0.72:
+      case number <= .72:
         quote = $("#quote18");
         break;
 
-      case number <= 0.76:
+      case number <= .76:
         quote = $("#quote19");
         break;
 
-      case number <= 0.80:
+      case number <= .80:
         quote = $("#quote20");
         break;
 
-      case number <= 0.84:
+      case number <= .84:
         quote = $("#quote21");
         break;
 
-      case number <= 0.88:
+      case number <= .88:
         quote = $("#quote22");
         break;
 
-      case number <= 0.92:
+      case number <= .92:
         quote = $("#quote23");
         break;
 
-      case number <= 0.96:
+      case number <= .96:
         quote = $("#quote24");
         break;
 
