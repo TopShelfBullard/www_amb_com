@@ -160,4 +160,4 @@
     -Steve Wozniak 
   </aside>
 
-</section>
+</section> <!-- end header_quotes -->
