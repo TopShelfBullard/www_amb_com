@@ -1,4 +1,4 @@
-<li class="content_nav">
+<li class="content_nav_blog content_nav">
   <a href="http://bullardamitchell.wordpress.com/">
     <h1>BLOG</h1>
   </a>

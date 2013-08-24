@@ -1,4 +1,4 @@
-<li class="content_nav">
+<li class="content_nav_tech content_nav">
   <a href="tech.php">
     <h1>TECH</h1>
   </a>             
