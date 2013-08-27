@@ -536,44 +536,21 @@
   .clearfix();
 }
 
-// Generate the double extra small columns
+// Generate the narrow columns
 .make-xxs-column(@columns; @gutter: @grid-gutter-width) {
   position: relative;
+  float: left;
   width: percentage((@columns / @grid-columns));
   // Prevent columns from collapsing when empty
   min-height: 1px;
   // Inner gutter via padding
   padding-left:  (@gutter / 2);
   padding-right: (@gutter / 2);
-
-  // Calculate width based on number of columns available
-  @media (min-width: @screen-xxs) {
-    float: left;
-    width: percentage((@columns / @grid-columns));
-  }
-}
-
-// Generate the small column offsets
-.make-xxs-column-offset(@columns) {
-  @media (min-width: @screen-xxs) {
-    margin-left: percentage((@columns / @grid-columns));
-  }
-}
-.make-xxs-column-push(@columns) {
-  @media (min-width: @screen-xxs) {
-    left: percentage((@columns / @grid-columns));
-  }
-}
-.make-xxs-column-pull(@columns) {
-  @media (min-width: @screen-xxs) {
-    right: percentage((@columns / @grid-columns));
-  }
 }
 
 // Generate the extra small columns
 .make-xs-column(@columns; @gutter: @grid-gutter-width) {
   position: relative;
-  width: percentage((@columns / @grid-columns));
   // Prevent columns from collapsing when empty
   min-height: 1px;
   // Inner gutter via padding
@@ -587,7 +564,7 @@
   }
 }
 
-// Generate the small column offsets
+// Generate the extra small column offsets
 .make-xs-column-offset(@columns) {
   @media (min-width: @screen-xs) {
     margin-left: percentage((@columns / @grid-columns));
@@ -653,7 +630,7 @@
   }
 }
 
-// Generate the large column offsets
+// Generate the medium column offsets
 .make-md-column-offset(@columns) {
   @media (min-width: @screen-md) {
     margin-left: percentage((@columns / @grid-columns));
