@@ -48,64 +48,13 @@
 // vertically and include a `max-height` to overflow in case you have too much
 // content for the user's viewport.
 
-.navbar-collapse {
-  max-height: 340px;
-  overflow-x: visible;
-  padding-right: @navbar-padding-horizontal;
-  padding-left:  @navbar-padding-horizontal;
-  border-top: 1px solid transparent;
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
-  .clearfix();
-  -webkit-overflow-scrolling: touch;
-
-  &.in {
-    overflow-y: auto;
-  }
-
-  @media (min-width: @grid-float-breakpoint) {
-    width: auto;
-    border-top: 0;
-    box-shadow: none;
-
-    &.collapse {
-      display: block !important;
-      height: auto !important;
-      padding-bottom: 0; // Override default setting
-      overflow: visible !important;
-    }
-
-    &.in {
-      overflow-y: visible;
-    }
-
-    // Account for first and last children spacing
-    .navbar-nav.navbar-left:first-child {
-      margin-left: -@navbar-padding-horizontal;
-    }
-    .navbar-nav.navbar-right:last-child {
-      margin-right: -@navbar-padding-horizontal;
-    }
-    .navbar-text:last-child {
-      margin-right: 0;
-    }
-  }
-}
 
 
 // Both navbar header and collapse
 //
 // When a container is present, change the behavior of the header and collapse.
 
-.container > .navbar-header,
-.container > .navbar-collapse {
-  margin-right: -@navbar-padding-horizontal;
-  margin-left:  -@navbar-padding-horizontal;
 
-  @media (min-width: @grid-float-breakpoint) {
-    margin-right: 0;
-    margin-left:  0;
-  }
-}
 
 
 //
@@ -157,11 +106,6 @@
     text-decoration: none;
   }
 
-  @media (min-width: @grid-float-breakpoint) {
-    .navbar > .container & {
-      margin-left: -@navbar-padding-horizontal;
-    }
-  }
 }
 
 

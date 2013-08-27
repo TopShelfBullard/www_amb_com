@@ -536,16 +536,72 @@
   .clearfix();
 }
 
-// Generate the extra small columns
-.make-xs-column(@columns; @gutter: @grid-gutter-width) {
+// Generate the double extra small columns
+.make-xxs-column(@columns; @gutter: @grid-gutter-width) {
   position: relative;
-  float: left;
   width: percentage((@columns / @grid-columns));
   // Prevent columns from collapsing when empty
   min-height: 1px;
   // Inner gutter via padding
   padding-left:  (@gutter / 2);
   padding-right: (@gutter / 2);
+
+  // Calculate width based on number of columns available
+  @media (min-width: @screen-xxs) {
+    float: left;
+    width: percentage((@columns / @grid-columns));
+  }
+}
+
+// Generate the small column offsets
+.make-xxs-column-offset(@columns) {
+  @media (min-width: @screen-xxs) {
+    margin-left: percentage((@columns / @grid-columns));
+  }
+}
+.make-xxs-column-push(@columns) {
+  @media (min-width: @screen-xxs) {
+    left: percentage((@columns / @grid-columns));
+  }
+}
+.make-xxs-column-pull(@columns) {
+  @media (min-width: @screen-xxs) {
+    right: percentage((@columns / @grid-columns));
+  }
+}
+
+// Generate the extra small columns
+.make-xs-column(@columns; @gutter: @grid-gutter-width) {
+  position: relative;
+  width: percentage((@columns / @grid-columns));
+  // Prevent columns from collapsing when empty
+  min-height: 1px;
+  // Inner gutter via padding
+  padding-left:  (@gutter / 2);
+  padding-right: (@gutter / 2);
+
+  // Calculate width based on number of columns available
+  @media (min-width: @screen-xs) {
+    float: left;
+    width: percentage((@columns / @grid-columns));
+  }
+}
+
+// Generate the small column offsets
+.make-xs-column-offset(@columns) {
+  @media (min-width: @screen-xs) {
+    margin-left: percentage((@columns / @grid-columns));
+  }
+}
+.make-xs-column-push(@columns) {
+  @media (min-width: @screen-xs) {
+    left: percentage((@columns / @grid-columns));
+  }
+}
+.make-xs-column-pull(@columns) {
+  @media (min-width: @screen-xs) {
+    right: percentage((@columns / @grid-columns));
+  }
 }
 
 // Generate the small columns
@@ -643,6 +699,39 @@
 }
 .make-lg-column-pull(@columns) {
   @media (min-width: @screen-lg) {
+    right: percentage((@columns / @grid-columns));
+  }
+}
+
+// Generate the extra large columns
+.make-xl-column(@columns; @gutter: @grid-gutter-width) {
+  position: relative;
+  // Prevent columns from collapsing when empty
+  min-height: 1px;
+  // Inner gutter via padding
+  padding-left:  (@gutter / 2);
+  padding-right: (@gutter / 2);
+
+  // Calculate width based on number of columns available
+  @media (min-width: @screen-xl) {
+    float: left;
+    width: percentage((@columns / @grid-columns));
+  }
+}
+
+// Generate the extra large column offsets
+.make-xl-column-offset(@columns) {
+  @media (min-width: @screen-xl) {
+    margin-left: percentage((@columns / @grid-columns));
+  }
+}
+.make-xl-column-push(@columns) {
+  @media (min-width: @screen-xl) {
+    left: percentage((@columns / @grid-columns));
+  }
+}
+.make-xl-column-pull(@columns) {
+  @media (min-width: @screen-xl) {
     right: percentage((@columns / @grid-columns));
   }
 }

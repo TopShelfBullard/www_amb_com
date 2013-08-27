@@ -199,12 +199,16 @@
 // Media queries breakpoints
 // --------------------------------------------------
 
+// Double Extra small screen / narrow phone
+@screen-xxs:                  0px;
+@screen-narrow-phone:               @screen-xxs;
+
 // Extra small screen / phone
-@screen-xs:                  320px;
+@screen-xs:                  500px;
 @screen-phone:               @screen-xs;
 
 // Small screen / tablet
-@screen-sm:                  770px;
+@screen-sm:                  768px;
 @screen-tablet:              @screen-sm;
 
 // Medium screen / desktop
@@ -215,10 +219,16 @@
 @screen-lg:                  1200px;
 @screen-lg-desktop:          @screen-lg;
 
+// Large screen / wide desktop
+@screen-xl:                  1500px;
+@screen-xl-desktop:          @screen-xl;
+
 // So media queries don't overlap when required, provide a maximum
+@screen-xxs-max:              (@screen-xxs - 1);
 @screen-xs-max:              (@screen-sm - 1);
 @screen-sm-max:              (@screen-md - 1);
 @screen-md-max:              (@screen-lg - 1);
+@screen-lg-max:              (@screen-xl - 1);
 
 
 // Grid system
@@ -229,7 +239,7 @@
 // Padding, to be divided by two and applied to the left and right of all columns
 @grid-gutter-width:         30px;
 // Point at which the navbar stops collapsing
-@grid-float-breakpoint:     @screen-tablet;
+@grid-float-breakpoint:     0px;
 
 
 // Navbar
@@ -609,6 +619,11 @@
 
 // Container sizes
 // --------------------------------------------------
+// Extra small screen / phone
+@container-narrow-phone:            ((400px + @grid-gutter-width));
+
+// Extra small screen / phone
+@container-phone:            ((470px + @grid-gutter-width));
 
 // Small screen / tablet
 @container-tablet:            ((720px + @grid-gutter-width));
@@ -618,3 +633,6 @@
 
 // Large screen / wide desktop
 @container-lg-desktop:        ((1140px + @grid-gutter-width));
+
+// Extra Large screen / wide desktop
+@container-xl-desktop:        ((1440px + @grid-gutter-width));

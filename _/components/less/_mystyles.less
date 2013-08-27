@@ -28,6 +28,8 @@
 
 body {
   background-color: @black;
+
+
   a {
     color: @black;
     font-weight: bold;
@@ -35,14 +37,17 @@ body {
   h1 {
     text-align: center;
   }
+  h2 {
+    text-align: center;
+  }
   p {
     text-align: justify;
   }
 }
 
-.container {
+.main_container {
   background-color: @white;
-  min-width: 350px;
+
 } 
 
 .heading {
@@ -73,7 +78,7 @@ body {
 }
 
 .content_nav_prose {
-  .prose_p1 {
+  .prose_preview_p1 {
     .content_nav_padding( 0px, 0px,   0px, @measure,   0px, 0px,   0px, 0px,   0px, 0px );  
   }
   .prose_img {
@@ -89,7 +94,7 @@ body {
   .music_img {
     .content_nav_padding( 0px, @measure * 2,  0px, @measure * 2,  0px, 0px,  0px, 0px,  0px, 0px ); 
   }
-    .music_p1 {
+    .music_preview_p1 {
     .content_nav_padding( 0px, @measure,  0px, @measure,  0px, 0px,  0px, 0px,  0px, 0px ); 
   }
 }
