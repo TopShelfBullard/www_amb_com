@@ -4,11 +4,11 @@
     <title>AMB - HOME</title>
     <?php include '_/components/php/head_tag_contents.php'; ?>
   </head>
-  <body id="body_music">
+  <body id="body_home">
     <div class="main_container container">
       <header class="header_row row">
         <section class="left_header_container">
-          <div class="left_header_column col col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="left_header_column col col-xs-12  col-sm-6 ">
 
             <?php include '_/components/php/header.php'; ?>
     
@@ -16,7 +16,7 @@
         </section> <!-- end left_header_container -->
 
         <section class="right_header_container">
-          <div class="right_header_column col col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 hidden-xs"> 
+          <div class="right_header_column col hidden-xxs  hidden-xs  col-sm-4 col-sm-offset-1 "> 
             
             <?php include '_/components/php/header_quotes.php'; ?>
           
@@ -26,7 +26,8 @@
 
       <hr>
 
-      <section class="top_nav_container col col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+              <section class="top_nav_container col col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="top_nav navbar">
           <ul class="nav nav-pills nav-justified">
 
@@ -34,36 +35,48 @@
     
           </ul>
         </div> <!-- end top_nav -->       
-      </section> <!-- end top_nav_container -->
+</section>
 
 
-<!-- content -->      
-      <div class=".content_navbar navbar">
-        <ul class="nav">  
+<!-- content -->
+      <section class="content_container container col col-sm-12">
+        <div class="row">      
+          <div class=".content_navbar navbar">
+            <ul class="nav">  
 
-<!-- content column one -->
-          <section class="left_content_container">
-            <div class="left_content_column col col-lg-6 col-md-6 col-sm-6 col-xs-6">                    
-
+        <section class="content_column_one col col-xxs-12 col-xl-6">
+          <div class="row">
+            <div class="left_content_one col col-xxs-12 col-sm-6">                    
+              
               <?php include '_/components/php/content_li_tech.php'; ?>
+            
+            </div>
+            <div class="right_content_one col col-xxs-12 col-sm-6">
+              
+              <?php include '_/components/php/content_li_writings.php'; ?>
+              
+            </div>
+          </div><!-- end row -->
+        </section> <!-- end left_content_container -->
 
-              <?php include '_/components/php/content_li_music.php'; ?>
+        <section class="content_colomn_two col col-xxs-12 col-xl-6">
+          <div class="row">
+            <div class="left_content_two col col-xxs-12 col-sm-6">            
+              
+              <?php include '_/components/php/content_li_family.php'; ?>
 
-            </div> <!-- end content_column_one -->  
-          </section> <!-- end left_content_container -->
-
-<!-- content column two -->
-          <section class="right_content_container">
-            <div class="right_content_column col col-lg-6 col-md-6 col-sm-6 col-xs-6"> 
-             
-              <?php include '_/components/php/content_li_prose.php'; ?>
+            </div>
+            <div class="right_content_two col col-xxs-12 col-sm-6">
 
               <?php include '_/components/php/content_li_blog.php'; ?>
 
-            </div> <!-- end right_content_column -->      
-          </section> <!-- end right_content_container -->
-        </ul>
-      </div> <!-- end navbar -->
+            </div>
+          </div> <!-- end row -->      
+        </section> <!-- end content_container_two -->
+            </ul>
+          </div> <!-- end navbar -->
+        </div> <!-- end row -->
+      </section> <!-- end content_container -->
     </div> <!-- end container -->
 
     <?php include '_/components/php/script_tags.php'; ?>
