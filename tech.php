@@ -8,7 +8,7 @@
     <div class="main_container container">
       <header class="header_row row">
         <section class="left_header_container">
-          <div class="left_header_column col col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="left_header_column col col-xs-12  col-sm-6 ">
 
             <?php include '_/components/php/header.php'; ?>
     
@@ -16,26 +16,33 @@
         </section> <!-- end left_header_container -->
 
         <section class="right_header_container">
-          <div class="right_header_column col col-sm-4 col-sm-offset-1 hidden-xs hidden-xxs"> 
+          <div class="right_header_column col hidden-xs  col-sm-4 col-sm-offset-1 "> 
             
             <?php include '_/components/php/header_quotes.php'; ?>
           
-          </div> <!-- right_header_column -->
+           </div> <!-- right_header_column -->
         </section> <!-- end right_header_container --> 
       </header> <!-- end header_row -->
 
+
       <hr>
-      <div class="container">
-<div class="row">
-        <div class="top_nav navbar">
+
+
+         <div class="top_nav navbar hidden-xs visible-sm">
+          <ul class="nav nav-pills nav-justified">
+            
+            <?php include '_/components/php/header_top_nav.php'; ?>
+    
+                </ul>
+        </div> <!-- end top_nav -->
+
+        <div class="top_nav navbar visible-xs hidden-sm hidden-md hidden-lg hidden-xl">
           <ul class="nav nav-pills nav-justified">
 
             <?php include '_/components/php/header_top_nav.php'; ?>
     
           </ul>
-        </div> <!-- end top_nav -->       
-</div>
-</div>
+        </div> <!-- end top_nav -->  
         <div class="row">
           <div class="container col-xxs-12 col-xl-6">
             <section class="col  col-xxs-12 col-xs-12   col-sm-6   col-md-6 col-lg-6     col-xl-6  col-xl-offset-0 ">     

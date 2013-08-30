@@ -35,92 +35,46 @@
 
 // Visibility utilities
 
-.visible-xxs {
-  .responsive-invisibility();
-  @media (max-width: @screen-xxs-max) {
-    .responsive-visibility();
-  }
-  &.visible-xs {
-    @media (min-width: @screen-xs) and (max-width: @screen-xs-max) {
-      .responsive-visibility();
-    }
-  }  
-  &.visible-sm {
-    @media (min-width: @screen-sm) and (max-width: @screen-sm-max) {
-      .responsive-visibility();
-    }
-  }
-  &.visible-md {
-    @media (min-width: @screen-md) and (max-width: @screen-md-max) {
-      .responsive-visibility();
-    }    
-  }
-  &.visible-lg {
-    @media (min-width: @screen-lg) and (max-width: @screen-lg-max) {
-      .responsive-visibility();
-    }    
-  }
-  &.visible-xl {
-    @media (min-width: @screen-xl) {
-      .responsive-visibility();
-    }    
-  }
-}
 .visible-xs {
   .responsive-invisibility();
-  &.visible-xxs {
-    @media (max-width: @screen-xxs-max) {
-      .responsive-visibility();
-    }    
-  }
-  @media (min-width: @screen-xs) and (max-width: @screen-xs-max) {
+  @media (max-width: @screen-xs-max) {
     .responsive-visibility();
   }
   &.visible-sm {
-    @media (min-width: @screen-sm) and (max-width: @screen-sm-max) {
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
       .responsive-visibility();
     }
   }
   &.visible-md {
-    @media (min-width: @screen-md) and (max-width: @screen-md-max) {
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
       .responsive-visibility();
-    }    
+    }
   }
   &.visible-lg {
-    @media (min-width: @screen-lg) and (max-width: @screen-lg-max) {
+    @media (min-width: @screen-lg-min) {
       .responsive-visibility();
-    }    
-  }
-  &.visible-xl {
-    @media (min-width: @screen-xl) {
-      .responsive-visibility();
-    }    
+    }
   }
 }
 .visible-sm {
   .responsive-invisibility();
-  &.visible-xxs {
-    @media (max-width: @screen-xxs-max) {
-      .responsive-visibility();
-    }    
-  }
   &.visible-xs {
-    @media (min-width: @screen-xs) and (max-width: @screen-xs-max) {
+    @media (max-width: @screen-xs-max) {
       .responsive-visibility();
     }
   }
-  @media (min-width: @screen-sm) and (max-width: @screen-sm-max) {
+  @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
     .responsive-visibility();
   }
   &.visible-md {
-    @media (min-width: @screen-md) and (max-width: @screen-md-max) {
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
       .responsive-visibility();
-    }    
+    }
   }
   &.visible-lg {
-    @media (min-width: @screen-lg) and (max-width: @screen-lg-max) {
+    @media (min-width: @screen-lg-min) {
       .responsive-visibility();
-    }    
+    }
   }
   &.visible-xl {
     @media (min-width: @screen-xl) {
@@ -130,28 +84,23 @@
 }
 .visible-md {
   .responsive-invisibility();
-  &.visible-xxs {
-    @media (max-width: @screen-xxs-max) {
-      .responsive-visibility();
-    }    
-  }
   &.visible-xs {
-    @media (min-width: @screen-xs) and (max-width: @screen-xs-max) {
-      .responsive-visibility();
-    }
-  }  
-  &.visible-sm {
-    @media (min-width: @screen-sm) and (max-width: @screen-sm-max) {
+    @media (max-width: @screen-xs-max) {
       .responsive-visibility();
     }
   }
-  @media (min-width: @screen-md) and (max-width: @screen-md-max) {
-    .responsive-visibility();  
+  &.visible-sm {
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+      .responsive-visibility();
+    }
+  }
+  @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+    .responsive-visibility();
   }
   &.visible-lg {
-    @media (min-width: @screen-lg) and (max-width: @screen-lg-max) {
+    @media (min-width: @screen-lg-min) {
       .responsive-visibility();
-    }    
+    }
   }
   &.visible-xl {
     @media (min-width: @screen-xl) {
@@ -161,28 +110,23 @@
 }
 .visible-lg {
   .responsive-invisibility();
-  &.visible-xxs {
-    @media (max-width: @screen-xxs-max) {
-      .responsive-visibility();
-    }    
-  }
   &.visible-xs {
-    @media (min-width: @screen-xs) and (max-width: @screen-xs-max) {
+    @media (max-width: @screen-xs-max) {
       .responsive-visibility();
     }
-  }  
+  }
   &.visible-sm {
-    @media (min-width: @screen-sm) and (max-width: @screen-sm-max) {
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
       .responsive-visibility();
     }
   }
   &.visible-md {
-    @media (min-width: @screen-md) and (max-width: @screen-md-max) {
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
       .responsive-visibility();
-    }    
+    }
   }
-  @media (min-width: @screen-lg) and (max-width: @screen-lg-max) {
-    .responsive-visibility(); 
+  @media (min-width: @screen-lg-min) {
+    .responsive-visibility();
   }
   &.visible-xl {
     @media (min-width: @screen-xl) {
@@ -192,91 +136,48 @@
 }
 .visible-xl {
   .responsive-invisibility();
-  &.visible-xxs {
-    @media (max-width: @screen-xxs-max) {
-      .responsive-visibility();
-    }    
-  }
   &.visible-xs {
-    @media (min-width: @screen-xs) and (max-width: @screen-xs-max) {
+    @media (max-width: @screen-xs-max) {
       .responsive-visibility();
     }
-  }  
+  }
   &.visible-sm {
-    @media (min-width: @screen-sm) and (max-width: @screen-sm-max) {
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
       .responsive-visibility();
     }
   }
   &.visible-md {
-    @media (min-width: @screen-md) and (max-width: @screen-md-max) {
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
       .responsive-visibility();
-    }    
+    }
   }
-  &.visible-lg {
-    @media (min-width: @screen-lg) and (max-width: @screen-lg-max) {
-      .responsive-visibility();
-    }    
+  @media (min-width: @screen-lg-min) {
+    .responsive-visibility();
   }
   @media (min-width: @screen-xl) {
-    .responsive-visibility();   
+    .responsive-visibility(); 
   }
 }
 
-.hidden-xxs {
-  .responsive-visibility();
-  @media (max-width: @screen-xxs-max) {
-    .responsive-invisibility();
-  }
-  &.hidden-xs {
-    @media (min-width: @screen-xs) and (max-width: @screen-xs-max) {
-      .responsive-invisibility();
-    }    
-  }
-  &.hidden-sm {
-    @media (min-width: @screen-sm) and (max-width: @screen-sm-max) {
-      .responsive-invisibility();
-    }    
-  }
-  &.hidden-md {
-    @media (min-width: @screen-md) and (max-width: @screen-md-max) {
-      .responsive-invisibility();
-    }    
-  }
-  &.hidden-lg {
-    @media (min-width: @screen-lg) and (max-width: @screen-lg-max) {
-      .responsive-invisibility();
-    }  
-  }
-  &.hidden-xl {
-    @media (min-width: @screen-xl) {
-      .responsive-invisibility();
-    }  
-  }
-}
 .hidden-xs {
   .responsive-visibility();
-  &.hidden-xxs {
-  @media (max-width: @screen-xxs-max) {
-    .responsive-invisibility();
-    }
-  }
-  @media (min-width: @screen-xs) and (max-width: @screen-xs-max) {
+  @media (max-width: @screen-xs-max) {
     .responsive-invisibility();
   }
   &.hidden-sm {
-    @media (min-width: @screen-sm) and (max-width: @screen-sm-max) {
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
       .responsive-invisibility();
-    }    
+    }
   }
   &.hidden-md {
-    @media (min-width: @screen-md) and (max-width: @screen-md-max) {
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
       .responsive-invisibility();
-    }    
+    }
   }
   &.hidden-lg {
-    @media (min-width: @screen-lg) and (max-width: @screen-lg-max) {
+    @media (min-width: @screen-lg-min) {
       .responsive-invisibility();
-    }  
+    }
   }
   &.hidden-xl {
     @media (min-width: @screen-xl) {
@@ -286,28 +187,23 @@
 }
 .hidden-sm {
   .responsive-visibility();
-  &.hidden-xxs {
-  @media (max-width: @screen-xxs-max) {
-    .responsive-invisibility();
+  &.hidden-xs {
+    @media (max-width: @screen-xs-max) {
+      .responsive-invisibility();
     }
   }
-  &.hidden-xs {
-    @media (min-width: @screen-xs) and (max-width: @screen-xs-max) {
-      .responsive-invisibility();
-    }    
-  }
-  @media (min-width: @screen-sm) and (max-width: @screen-sm-max) {
+  @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
     .responsive-invisibility();
   }
   &.hidden-md {
-    @media (min-width: @screen-md) and (max-width: @screen-md-max) {
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
       .responsive-invisibility();
-    }    
+    }
   }
   &.hidden-lg {
-    @media (min-width: @screen-lg) and (max-width: @screen-lg-max) {
+    @media (min-width: @screen-lg-min) {
       .responsive-invisibility();
-    }  
+    }
   }
   &.hidden-xl {
     @media (min-width: @screen-xl) {
@@ -317,28 +213,23 @@
 }
 .hidden-md {
   .responsive-visibility();
-  &.hidden-xxs {
-  @media (max-width: @screen-xxs-max) {
-    .responsive-invisibility();
-    }
-  }
   &.hidden-xs {
-    @media (min-width: @screen-xs) and (max-width: @screen-xs-max) {
+    @media (max-width: @screen-xs-max) {
       .responsive-invisibility();
-    }    
-  }
-  &.hidden-sm {  
-  @media (min-width: @screen-sm) and (max-width: @screen-sm-max) {
-    .responsive-invisibility();
     }
   }
-  @media (min-width: @screen-md) and (max-width: @screen-md-max) {
-    .responsive-invisibility();  
+  &.hidden-sm {
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+      .responsive-invisibility();
+    }
+  }
+  @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+    .responsive-invisibility();
   }
   &.hidden-lg {
-    @media (min-width: @screen-lg) and (max-width: @screen-lg-max) {
+    @media (min-width: @screen-lg-min) {
       .responsive-invisibility();
-    }  
+    }
   }
   &.hidden-xl {
     @media (min-width: @screen-xl) {
@@ -348,28 +239,23 @@
 }
 .hidden-lg {
   .responsive-visibility();
-  &.hidden-xxs {
-  @media (max-width: @screen-xxs-max) {
-    .responsive-invisibility();
+  &.hidden-xs {
+    @media (max-width: @screen-xs-max) {
+      .responsive-invisibility();
     }
   }
-  &.hidden-xs {
-    @media (min-width: @screen-xs) and (max-width: @screen-xs-max) {
+  &.hidden-sm {
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
       .responsive-invisibility();
-    }    
-  }
-  &.hidden-sm {  
-  @media (min-width: @screen-sm) and (max-width: @screen-sm-max) {
-    .responsive-invisibility();
     }
   }
   &.hidden-md {
-  @media (min-width: @screen-md) and (max-width: @screen-md-max) {
-    .responsive-invisibility();
-    }  
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+      .responsive-invisibility();
+    }
   }
-  @media (min-width: @screen-lg) and (max-width: @screen-lg-max) {
-    .responsive-invisibility(); 
+  @media (min-width: @screen-lg-min) {
+    .responsive-invisibility();
   }
   &.hidden-xl {
     @media (min-width: @screen-xl) {
@@ -377,32 +263,25 @@
     }  
   }
 }
-.hidden-lg {
+.hidden-xl {
   .responsive-visibility();
-  &.hidden-xxs {
-  @media (max-width: @screen-xxs-max) {
-    .responsive-invisibility();
+  &.hidden-xs {
+    @media (max-width: @screen-xs-max) {
+      .responsive-invisibility();
     }
   }
-  &.hidden-xs {
-    @media (min-width: @screen-xs) and (max-width: @screen-xs-max) {
+  &.hidden-sm {
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
       .responsive-invisibility();
-    }    
-  }
-  &.hidden-sm {  
-  @media (min-width: @screen-sm) and (max-width: @screen-sm-max) {
-    .responsive-invisibility();
     }
   }
   &.hidden-md {
-  @media (min-width: @screen-md) and (max-width: @screen-md-max) {
-    .responsive-invisibility();
-    } 
-  }
-  &.hidden-lg {
-    @media (min-width: @screen-lg) and (max-width: @screen-lg-max) {
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
       .responsive-invisibility();
-    }  
+    }
+  }
+  @media (min-width: @screen-lg-min) {
+    .responsive-invisibility();
   }
   @media (min-width: @screen-xl) {
     .responsive-invisibility();
