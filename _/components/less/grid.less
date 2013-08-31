@@ -14,6 +14,18 @@
 }
 
 // Common styles for small and large grid columns
+.col-xxs-1,
+.col-xxs-2,
+.col-xxs-3,
+.col-xxs-4,
+.col-xxs-5,
+.col-xxs-6,
+.col-xxs-7,
+.col-xxs-8,
+.col-xxs-9,
+.col-xxs-10,
+.col-xxs-11,
+.col-xxs-12,
 .col-xs-1,
 .col-xs-2,
 .col-xs-3,
@@ -91,32 +103,101 @@
 // Note that `.col-xs-12` doesn't get floated on purpose—there's no need since
 // it's full-width.
 
-.col-xs-1,
-.col-xs-2,
-.col-xs-3,
-.col-xs-4,
-.col-xs-5,
-.col-xs-6,
-.col-xs-7,
-.col-xs-8,
-.col-xs-9,
-.col-xs-10,
-.col-xs-11 {
+.col-xxs-1,
+.col-xxs-2,
+.col-xxs-3,
+.col-xxs-4,
+.col-xxs-5,
+.col-xxs-6,
+.col-xxs-7,
+.col-xxs-8,
+.col-xxs-9,
+.col-xxs-10,
+.col-xxs-11 {
   float: left;
 }
-.col-xs-1  { width: percentage((1 / @grid-columns)); }
-.col-xs-2  { width: percentage((2 / @grid-columns)); }
-.col-xs-3  { width: percentage((3 / @grid-columns)); }
-.col-xs-4  { width: percentage((4 / @grid-columns)); }
-.col-xs-5  { width: percentage((5 / @grid-columns)); }
-.col-xs-6  { width: percentage((6 / @grid-columns)); }
-.col-xs-7  { width: percentage((7 / @grid-columns)); }
-.col-xs-8  { width: percentage((8 / @grid-columns)); }
-.col-xs-9  { width: percentage((9 / @grid-columns)); }
-.col-xs-10 { width: percentage((10/ @grid-columns)); }
-.col-xs-11 { width: percentage((11/ @grid-columns)); }
-.col-xs-12 { width: 100%; }
+.col-xxs-1  { width: percentage((1 / @grid-columns)); }
+.col-xxs-2  { width: percentage((2 / @grid-columns)); }
+.col-xxs-3  { width: percentage((3 / @grid-columns)); }
+.col-xxs-4  { width: percentage((4 / @grid-columns)); }
+.col-xxs-5  { width: percentage((5 / @grid-columns)); }
+.col-xxs-6  { width: percentage((6 / @grid-columns)); }
+.col-xxs-7  { width: percentage((7 / @grid-columns)); }
+.col-xxs-8  { width: percentage((8 / @grid-columns)); }
+.col-xxs-9  { width: percentage((9 / @grid-columns)); }
+.col-xxs-10 { width: percentage((10/ @grid-columns)); }
+.col-xxs-11 { width: percentage((11/ @grid-columns)); }
+.col-xxs-12 { width: 100%; }
 
+@media (min-width: @screen-xs) {
+  .container {
+    max-width: @container-phone;
+  }
+
+  .col-xs-1,
+  .col-xs-2,
+  .col-xs-3,
+  .col-xs-4,
+  .col-xs-5,
+  .col-xs-6,
+  .col-xs-7,
+  .col-xs-8,
+  .col-xs-9,
+  .col-xs-10,
+  .col-xs-11 {
+    float: left;
+  }
+  .col-xs-1  { width: percentage((1 / @grid-columns)); }
+  .col-xs-2  { width: percentage((2 / @grid-columns)); }
+  .col-xs-3  { width: percentage((3 / @grid-columns)); }
+  .col-xs-4  { width: percentage((4 / @grid-columns)); }
+  .col-xs-5  { width: percentage((5 / @grid-columns)); }
+  .col-xs-6  { width: percentage((6 / @grid-columns)); }
+  .col-xs-7  { width: percentage((7 / @grid-columns)); }
+  .col-xs-8  { width: percentage((8 / @grid-columns)); }
+  .col-xs-9  { width: percentage((9 / @grid-columns)); }
+  .col-xs-10 { width: percentage((10/ @grid-columns)); }
+  .col-xs-11 { width: percentage((11/ @grid-columns)); }
+  .col-xs-12 { width: 100%; }
+
+  // Push and pull columns for source order changes
+  .col-xs-push-1  { left: percentage((1 / @grid-columns)); }
+  .col-xs-push-2  { left: percentage((2 / @grid-columns)); }
+  .col-xs-push-3  { left: percentage((3 / @grid-columns)); }
+  .col-xs-push-4  { left: percentage((4 / @grid-columns)); }
+  .col-xs-push-5  { left: percentage((5 / @grid-columns)); }
+  .col-xs-push-6  { left: percentage((6 / @grid-columns)); }
+  .col-xs-push-7  { left: percentage((7 / @grid-columns)); }
+  .col-xs-push-8  { left: percentage((8 / @grid-columns)); }
+  .col-xs-push-9  { left: percentage((9 / @grid-columns)); }
+  .col-xs-push-10 { left: percentage((10/ @grid-columns)); }
+  .col-xs-push-11 { left: percentage((11/ @grid-columns)); }
+
+  .col-xs-pull-1  { right: percentage((1 / @grid-columns)); }
+  .col-xs-pull-2  { right: percentage((2 / @grid-columns)); }
+  .col-xs-pull-3  { right: percentage((3 / @grid-columns)); }
+  .col-xs-pull-4  { right: percentage((4 / @grid-columns)); }
+  .col-xs-pull-5  { right: percentage((5 / @grid-columns)); }
+  .col-xs-pull-6  { right: percentage((6 / @grid-columns)); }
+  .col-xs-pull-7  { right: percentage((7 / @grid-columns)); }
+  .col-xs-pull-8  { right: percentage((8 / @grid-columns)); }
+  .col-xs-pull-9  { right: percentage((9 / @grid-columns)); }
+  .col-xs-pull-10 { right: percentage((10/ @grid-columns)); }
+  .col-xs-pull-11 { right: percentage((11/ @grid-columns)); }
+
+  // Offsets
+  .col-xs-offset-1  { margin-left: percentage((1 / @grid-columns)); }
+  .col-xs-offset-2  { margin-left: percentage((2 / @grid-columns)); }
+  .col-xs-offset-3  { margin-left: percentage((3 / @grid-columns)); }
+  .col-xs-offset-4  { margin-left: percentage((4 / @grid-columns)); }
+  .col-xs-offset-5  { margin-left: percentage((5 / @grid-columns)); }
+  .col-xs-offset-6  { margin-left: percentage((6 / @grid-columns)); }
+  .col-xs-offset-7  { margin-left: percentage((7 / @grid-columns)); }
+  .col-xs-offset-8  { margin-left: percentage((8 / @grid-columns)); }
+  .col-xs-offset-9  { margin-left: percentage((9 / @grid-columns)); }
+  .col-xs-offset-10 { margin-left: percentage((10/ @grid-columns)); }
+  .col-xs-offset-11 { margin-left: percentage((11/ @grid-columns)); }
+}
 
 // Small grid
 //
