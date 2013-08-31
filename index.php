@@ -15,6 +15,11 @@
 
           </div><!-- left_header_column -->
         </section> <!-- left_header_container -->
+
+        <div class="hidden-xs hidden-sm hidden-md hidden-lg  hidden-xl">
+          <hr>
+        </div>
+
         <section class="right_header_container">
           <div class="right_header_column  col  hidden-xxs col-xs-6 col-sm-4  col-sm-offset-1">
 
@@ -25,14 +30,14 @@
       </header> <!-- header -->
  
 <!-- navigation -->
-      <nav class="top_nav  navbar  hidden-xs  visible-sm">
+      <nav class="top_nav  hidden-xs  visible-sm">
         <ul class="nav nav-pills  nav-justified">
 
             <?php include '_/components/php/header_top_nav.php'; ?>
 
         </ul>
       </nav> <!-- top_nav -->
-      <nav class="top_nav  navbar  visible-xs  hidden-sm  hidden-md  hidden-lg  hidden-xl">
+      <nav class="top_nav  visible-xs  hidden-sm  hidden-md  hidden-lg  hidden-xl">
         <ul class="nav  nav-pills nav-justified">
 
           <?php include '_/components/php/header_top_nav.php'; ?>
