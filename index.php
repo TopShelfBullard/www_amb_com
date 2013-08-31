@@ -23,7 +23,7 @@
            </div> <!-- right_header_column -->
         </section> <!-- right_header_container -->
       </header> <!-- header -->
-      <hr>
+ 
 <!-- navigation -->
       <nav class="top_nav  navbar  hidden-xs  visible-sm">
         <ul class="nav nav-pills  nav-justified">
@@ -76,17 +76,12 @@
           </div> <!-- content_navbar -->
         </div> <!-- row -->     
       </section> <!-- content_container -->
-      <hr>
+
 <!-- footer -->
-      <footer>
-        <div class="row">
-          <div class="col col-sm-4">
-
-            <?php include '_/components/php/footer_content.php'; ?>
-
-          </div>
-        </div>
+      <footer class="footer_row row">
+        <?php include '_/components/php/footer_content.php'; ?>
       </footer>
+      
     </div> <!-- main_container -->
 
   <?php include '_/components/php/script_tags.php'; ?>

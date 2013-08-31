@@ -1,6 +1,11 @@
+<div class="row">
+  
+  <div class="col col-xxs-12"> 
+    <blockquote>
+      Designed, developed, and deployed by A. Mitchell Bullard.     
+    </blockquote>
+    <?php include '_/components/php/footer_share_icons_js.php'; ?>
+    <?php include '_/components/php/footer_share_icons.php'; ?>
+  </div>
 
-  <h4>Designed, developed, and deployed by A. Mitchell Bullard.</h4>
-  <h5 class="thanks">Special thanks to:</h5>
-  <blockquote class="thanks">
-    The good people who have provided young developers such as me Bootstrap 3, Heroku, Git, MAMP, and CodeKit.
-  </blockquote>
+</div> 

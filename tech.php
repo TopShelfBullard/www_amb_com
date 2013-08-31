@@ -17,28 +17,34 @@
         </section> <!-- left_header_container -->
         <section class="right_header_container">
           <div class="right_header_column  col  hidden-xs  col-sm-4  col-sm-offset-1">
+
             <?php include '_/components/php/header_quotes.php'; ?>
+
            </div> <!-- right_header_column -->
         </section> <!-- right_header_container -->
       </header> <!-- header -->
-      <hr>
+ 
 <!-- navigation -->
       <nav class="top_nav  navbar  hidden-xs  visible-sm">
-        <ul class="nav nav-pills nav-justified">
+        <ul class="nav nav-pills  nav-justified">
+
             <?php include '_/components/php/header_top_nav.php'; ?>
+
         </ul>
       </nav> <!-- top_nav -->
       <nav class="top_nav  navbar  visible-xs  hidden-sm  hidden-md  hidden-lg  hidden-xl">
-        <ul class="nav nav-pills nav-justified">
+        <ul class="nav  nav-pills nav-justified">
+
           <?php include '_/components/php/header_top_nav.php'; ?>
+
         </ul>
-      </nav> <!-- top_nav -->   
+      </nav> <!-- top_nav -->  
 <!-- content --> 
 
     <div class="tab_pane_container container col col-xs-12">
     <div class="row">  
 
-      <div class=" tab_pane_one col col-xxs-12 col-md-6">
+      <div class="tab_pane_one col col-xxs-12 col-md-6">
         <h1>CODE</h1>
         <div class="tabbable tabs">              
           <ul class="nav nav-tabs">  
@@ -126,15 +132,13 @@
 
      
 <!-- footer -->
-      <footer class="footer_row">
-
-        <hr>
+      <footer class="footer_row row">
         <?php include '_/components/php/footer_content.php'; ?>
       </footer>
-
+      
     </div> <!-- main_container -->
 
-    <?php include '_/components/php/script_tags.php'; ?>
+  <?php include '_/components/php/script_tags.php'; ?>
 
   </body>
 </html>
