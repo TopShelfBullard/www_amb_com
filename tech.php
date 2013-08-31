@@ -9,14 +9,14 @@
 <!-- header --> 
       <header class="header_row  row">
         <section class="left_header_container">
-          <div class="left_header_column  col  col-xs-12  col-sm-6">
+          <div class="left_header_column  col  col-xs-6">
 
             <?php include '_/components/php/header_title.php'; ?>
 
           </div><!-- left_header_column -->
         </section> <!-- left_header_container -->
         <section class="right_header_container">
-          <div class="right_header_column  col  hidden-xs  col-sm-4  col-sm-offset-1">
+          <div class="right_header_column  col  hidden-xxs col-xs-6 col-sm-4  col-sm-offset-1">
 
             <?php include '_/components/php/header_quotes.php'; ?>
 
@@ -38,7 +38,7 @@
           <?php include '_/components/php/header_top_nav.php'; ?>
 
         </ul>
-      </nav> <!-- top_nav -->  
+      </nav> <!-- top_nav --> 
 <!-- content --> 
 
     <div class="tab_pane_container container col col-xs-12">
