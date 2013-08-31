@@ -118,7 +118,7 @@ $(document).ready(function() {
     }); 
   } 
 
-  $("#quote1").css("display", "none");
+  $("#quote5").css("display", "none");
 
   getNewQuoteForHeader();
 

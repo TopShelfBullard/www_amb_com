@@ -26,7 +26,7 @@
     -Ernest Hemingway
   </aside>
 
-  <aside id="quote5" class="quotes">
+  <aside id="quote5">
     Intelligence is the ability to avoid doing work, yet getting the work done.
     <br><br>
     -Linus Torvalds

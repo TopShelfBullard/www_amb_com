@@ -1,5 +1,23 @@
 @black: #000;
 @white: #fff;
+// Grays
+// -------------------------
+
+@gray-darker:            lighten(#000, 13.5%); // #222
+@gray-dark:              lighten(#000, 20%);   // #333
+@gray:                   lighten(#000, 33.5%); // #555
+@gray-light:             lighten(#000, 60%);   // #999
+@gray-lighter:           lighten(#000, 93.5%); // #eee
+@gray-lightest:           lighten(#000, 96%);
+
+// Brand colors
+// -------------------------
+
+@brand-primary:         #428bca;
+@brand-success:         #5cb85c;
+@brand-warning:         #f0ad4e;
+@brand-danger:          #d9534f;
+@brand-info:            #5bc0de;
 @measure: 20px;
 
 // Media queries breakpoints
@@ -66,23 +84,40 @@
 
 body {
   background-color: @black;
-  @media all and (max-width: @screen-md) {
+  @media all and (max-width: @screen-sm) {
     background-color: @white;
   }
+}
 
-  a {
-    color: @black;
-    font-weight: bold;
-  }
-  h1 {
-    text-align: center;
-  }
-  h2 {
-    text-align: center;
-  }
-  p {
-    text-align: justify;
-  }
+a {
+  color: @black;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+hr {
+  color: @gray-dark;
+}
+
+p {
+  text-align: justify;
+}
+
+.tab-pane {
+  overflow: scroll;
+  height: 350px;
+  background-color: @gray-lightest;
+}
+
+.top_nav {
+  padding-bottom: @measure * 2;
 }
 
 .main_container {
@@ -100,40 +135,4 @@ body {
 .quotes {
   padding-top: @measure;
   display: none;
-}
-
-.top_navbar {
-  padding-top: @measure * 2;
-}
-    
-.content_nav {
-  padding-bottom: @measure;
-}
-
-.content_nav_tech {
-  .tech_img {
-    .content_nav_padding( 5px, 0px,   5px, 0px,   5px, 0px,   5px, 0px,   5px, 0px );
-  }
-}
-
-.content_nav_prose {
-  .prose_preview_p1 {
-    .content_nav_padding( 0px, 0px,   0px, @measure,   0px, 0px,   0px, 0px,   0px, 0px );  
-  }
-  .prose_img {
-    .content_nav_padding( @measure, 0px,   @measure, 0px,   0px, 0px,   5px, 0px,   5px, 0px );
-  }
-}
-
-.content_nav_blog {
-    .content_nav_padding( 15px, 0px,  15px, 0px,  10px, 0px,  5px, 0px,  5px, 0px ); 
-}
-
-.content_nav_music {
-  .music_img {
-    .content_nav_padding( 0px, @measure * 2,  0px, @measure * 2,  0px, 0px,  0px, 0px,  0px, 0px ); 
-  }
-    .music_preview_p1 {
-    .content_nav_padding( 0px, @measure,  0px, @measure,  0px, 0px,  0px, 0px,  0px, 0px ); 
-  }
 }

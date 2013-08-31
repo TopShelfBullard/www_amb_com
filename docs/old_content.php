@@ -67,3 +67,66 @@
 
 
 <!-- development environment -->
+
+
+
+<!-- index -->  
+  <h1>TECH</h1>
+  </a>             
+  <img  src="images/tech.png" alt="Developing in the sun on his Mac" width="100%" class="tech_img">
+  <p class="tech_preview_p1 hidden-xxs hidden-xs">
+    A. Mitchell Bullard studies software development at Chippewa Valley Technical College, and he actively seeks employment in
+    this field that has become his hobby, his passion... his wife would say, his obsession. He has attended 
+    <a href="http://www.thatconference.com/">That Conference</a>,
+    <a href="http://www.twincitiescodecamp.com/TCCC/Default.aspx">Twin Cities Code Camp</a>,
+    every
+    <a href="http://cvdevgroup.org/">CVDev Group</a>
+    meeting since he began his studies the winter of 2013, but his favorite IT social activity just may be, 
+    <a href="https://twitter.com/DiabloTuesdays">@DiabdoTuesdays</a>.
+  </p>
+  <p class="tech_p2_preview hidden-xxs hidden-xs">
+    Click TECH to see what A. Mitchell Bullard loves to work with and why he loves it so much.
+  </p>
+
+
+  <h1>WRITINGS</h1>
+  </a>
+  <p class="writings_preview_p1 hidden-xxs hidden-xs">
+    The first installment A. Mitchell Bullard's explosive fantasy series,
+    <a href="http://www.amazon.com/Mystery-Magical-Journeys-Alexander-ebook/dp/B0083YU4II/ref=cm_sw_em_r_dp_2HUfsb0X00Q24_tt">
+      The Many Magical Journeys of Alexander Wright
+    </a>,
+    is currently available at Amazon's Kindle store. In this epic debut, the line between dreams-come-true and living-nightmares
+    blurs to the point of indistinction, the love and hate that binds friends and enemies crumbles to dust, and home is replaced by a
+    vast wilderness of beauty, wonder, and horror.
+  </p>
+  <p class="writings_preview_p2 hidden-xxs hidden-xs">
+    Click PROSE to see all of A. Mitchell Bullard's literary endeavors.
+  </p> 
+
+
+  <h1>FAMILY</h1>
+  </a>
+  <img  src="images/family.png" alt="Playing guitar for his children" width="100%" class="family_img"> 
+  <p class="family_preview_p1 hidden-xxs hidden-xs">
+    Software and web development, epic storytelling, music composition&mdash;these are amazing creative outlets for a motivated, thoughtful
+    individual such as A. Mitchell Bullard, but the true joy in his life are the people that he is blessed to share them with. While pursuing a bachelor's
+    degree in music at Viterbo University in LaCrosse, WI, the love of his life, Carrie, asked him out on a date. Since then she has become his wife
+    and given him the five greatest gifts that he has ever received: Helen Marie, Harrison Michael, Julian Charles, Marian Gianna, and Jonathan Paul.
+  </p>
+  <p class="family_preview_p2 hidden-xxs hidden-xs">
+    Click FAMILY for a picture biography.
+  </p>
+
+
+  <h1>BLOG</h1>
+  </a>
+  <p class="blog_preview_p1 hidden-xxs hidden-xs">
+    A. Mitchell Bullard's blog,
+    <a href="http://bullardamitchell.wordpress.com/">&lth1&gt IT Sunset: An IT Student's End of Week Reflections &lt/h1&gt</a>,
+    is place of reflection for him. As an IT student, every week is a perilous adventure filled with new concepts and and a mountain
+    of new material. He has found that the exercise of writing helps his brain organize and process his past to better direct his future.
+  </p>
+  <p class="blog_preview_p2 hidden-xxs hidden-xs">
+    Click BLOG for a humorous, candid glimpse into A. Mitchell Bullard's learning process.
+  </p>  
