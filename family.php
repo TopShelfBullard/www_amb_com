@@ -18,7 +18,7 @@
           </section> <!-- left_header_container -->
 
           <section class="right_header_container">
-            <div class="right_header_column  col  col-xxs-6 col-sm-4  col-sm-offset-1">
+            <div class="right_header_column  col  col-xxs-12 col-sm-4  col-sm-offset-1">
               <?php include '_/components/php/header_quotes.php'; ?>
              </div> <!-- right_header_column -->
 
