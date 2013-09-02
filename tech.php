@@ -18,7 +18,7 @@
           </section> <!-- left_header_container -->
 
           <section class="right_header_container">
-            <div class="right_header_column  col  col-xxs-6 col-sm-4  col-sm-offset-1">
+            <div class="right_header_column  col  col-xxs-12 col-sm-4  col-sm-offset-1">
               <?php include '_/components/php/header_quotes.php'; ?>
              </div> <!-- right_header_column -->
 
@@ -47,7 +47,7 @@
 
 
 
-          <div class="tab_pane_code col col-xxs-12 col-md-6">           
+          <div class="tab_pane_code col col-xxs-12 col-sm-6">           
 
             <h1>Code</h1>           
             <section class="tabbable tabs">              
@@ -57,8 +57,6 @@
                 <li><a href="#ruby" data-toggle="tab">RUBY</a></li>                  
               </ul>
             </section> <!-- tabbable -->
-
-
             
             <div class="tab-content">
                                       
@@ -81,11 +79,23 @@
               </section> <!-- tab_pane -->                                                                       
                                       
             </div> <!-- tab_content -->   
+          
+
+            <div class="tech_img_left  col  col-xxs-6  col-sm-12">
+              <img  src="images/tech_with_helen1.png" alt="Profile picture" width="100%" class="tech_img">
+            </div>
+
 
           </div> <!-- tab_pane_one -->
 
 
-          <div class="tab_pane_projects col col-xxs-12 col-md-6">
+
+          <div class="tab_pane_projects col col-xxs-12 col-sm-6">
+
+            <div class="tech_img_right  col  col-xxs-6  col-sm-12">
+              <img  src="images/tech.png" alt="Profile picture" width="100%" class="tech_img">
+            </div>
+
             <h1>Projects</h1>
 
             <section class="tabbable tabs">              
