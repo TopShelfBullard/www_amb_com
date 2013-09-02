@@ -1,25 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>AMB - FAMILY</title>
+    <title>A. Mitchell Bullard - Family</title>
     <?php include '_/components/php/head_tag_contents.php'; ?>
   </head>
   <body id="body_family">
-    <div class="container">
+    <div class="main_container  container">
 
-      <?php include '_/components/php/header.php'; ?>
-      <?php include '_/components/php/header_top_nav.php'; ?>
 
-    <section class="content_placeholder col col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
-      <p>
-        This is the family page.
-      </p>
-    </section>
+<!-- header --> 
+      <header>
+        <div class="row">
+          <section class="left_header_container">
+            <div class="left_header_column  col  col-xxs-12 col-xs-6">
+              <?php include '_/components/php/header_title.php'; ?>
+            </div><!-- left_header_column -->
+          </section> <!-- left_header_container -->
+
+          <section class="right_header_container">
+            <div class="right_header_column  col  col-xxs-6 col-sm-4  col-sm-offset-1">
+              <?php include '_/components/php/header_quotes.php'; ?>
+             </div> <!-- right_header_column -->
+
+
+          </section> <!-- right_header_container -->
+        
+        </div> <!-- row -->       
+        <hr>     
+      </header> <!-- header -->
+ 
+
+
+<!-- navigation -->
+       <nav class="top_nav">
+        <ul class="nav nav-pills  nav-justified">
+            <?php include '_/components/php/nav.php'; ?>
+        </ul>
+      </nav> <!-- top_nav --> 
+
+
+<!-- content -->
+      <div class="content_container  container  col  col-xxs-12">
+        <h1> This is the family page </h1>
+      </div> <!-- content_container -->
+
+<!-- footer -->
+      <footer>
+        <hr>
+        <div class="row">
+          <?php include '_/components/php/footer_content.php'; ?>
+        </div> <!-- row -->
+      </footer>
       
-    </div> <!-- end container -->
+    </div> <!-- main_container -->
 
-    <script src="_/js/bootstrap.js"></script>
-    <script src="_/js/myscript.js"></script>
+  <?php include '_/components/php/script_tags.php'; ?>
 
   </body>
 </html>

@@ -3,7 +3,7 @@
 
 <li>  <a href="tech.php">TECH</a> </li>
 
-<li>  <a href="writings.php">WRITINGS</a> </li>
+<li>  <a href="novel.php">NOVEL</a> </li>
 
 <li>  <a href="family.php">FAMILY</a> </li>        
 

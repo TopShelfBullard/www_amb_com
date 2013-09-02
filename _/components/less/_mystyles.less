@@ -60,64 +60,100 @@
 
 // My variables
 @black: #000;
-@measure: 20px;
+@measure: 15px;
 @white: #fff;
 
-body {
-  background-color: @black;
-  @media all and (max-width: @screen-sm) {
-    background-color: @white;
+
+// global styles
+  body {
+    background-color: @black;
+    
+    @media all and (max-width: @screen-sm) {
+      background-color: @white;
+      }
+    
+
+    a {
+      color: @black;
+      font-weight: bold;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    h3 {
+      text-align: center;
+    }
+
+    p {
+      text-align: justify;
+    }
+
   }
-}
 
-a {
-  color: @black;
-  font-weight: bold;
-}
+    .main_container {
+      background-color: @white; 
+    }    
 
-footer {
-  background-color: @gray-lighter;
-  padding-top: @measure * 2;
-}
+      header {
+        //background-color: @gray-lighter;
+      }    
+        
+        .page_heading {
+          text-align: center;
+        }
 
-h1 {
-  text-align: center;
-}
+        .quotes {
+          display: none;
+        }
 
-h2 {
-  text-align: center;
-}
+        #header_quotes {
+          text-align: center;
+          padding-top: @measure;
+        }       
 
-header {
-  background-color: @gray-lighter;
-  padding-bottom: @measure * 2;
-}
 
-p {
-  text-align: justify;
-}
+      .content_container {
+        padding-top: @measure * 3;
+        padding-bottom: @measure * 3;
+      }
 
-.tab-pane {
-  height: 350px;
-  overflow: scroll;
-}
+    
+      footer {
+        //background-color: @gray-lighter;
+        padding-top: @measure * 2;
+        padding-bottom: @measure * 2;
+      }
 
-.main_container {
-  background-color: @white;
-} 
 
-.heading {
-  text-align: center;
-}
+//styles for the tech page
 
-#header_quotes {
-  text-align: center;
-  #quote5 {
-    padding-top: @measure;
-  }
-}
+      .tab-pane {
+        height: 450px;
+        overflow: auto;
+        border-left: 2px solid @gray-lighter;
+        border-right: 2px solid @gray-lighter;
+        border-bottom: 2px solid @gray-lighter;
+      }
 
-.quotes {
-  padding-top: @measure;
-  display: none;
-}
+
+//styles for the novel page
+
+      .indent {
+        padding-left: @measure;
+        padding-top: @measure / 2;
+        padding-bottom: @measure /2;
+      }
+
+      #novel_teaser {
+        padding-top: @measure * 1.5;
+        img {
+          padding-top: 20px;
+          padding-bottom: 20px;
+        }
+      }
