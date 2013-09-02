@@ -56,7 +56,7 @@
             </div> <!-- tab_content -->   
           
 
-            <div class="tech_img_left  col  col-xxs-6  col-sm-12">
+            <div class="tech_img_left  col  col-xxs-12  col-xs-6  col-sm-12">
               <img  src="images/tech_with_helen1.png" alt="Profile picture" width="100%" class="tech_img">
             </div>
 
@@ -67,7 +67,7 @@
 
           <div class="tab_pane_projects col col-xxs-12 col-sm-6">
 
-            <div class="tech_img_right  col  col-xxs-6  col-sm-12">
+            <div class="tech_img_right  col  col-xxs-12 col-xs-6 col-sm-12">
               <img  src="images/tech.png" alt="Profile picture" width="100%" class="tech_img">
             </div>
 

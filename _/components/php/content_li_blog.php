@@ -5,5 +5,5 @@
     <h1>BLOG</h1>
   </a>               
 </li>
-<img  src="images/profile.png" alt="Profile picture" width="100%" class="blog_img">
+<img  src="images/profile_wide.png" alt="Profile picture" width="100%" class="blog_img">
 </nav>

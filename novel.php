@@ -33,7 +33,7 @@
           </div> <!-- col -->
 
           <section class="col col-xxs-12 col-sm-5">
-                <img  src="images/novel_bw_light.png" alt="Cover image for A. Mitchell Bullard's debut novel"
+                <img  src="images/novel_light.png" alt="Cover image for A. Mitchell Bullard's debut novel"
                           width="100%" class="novel_img">
           </section>
           
