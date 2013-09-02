@@ -9,34 +9,11 @@
 
 
 <!-- header --> 
-      <header>
-        <div class="row">
-          <section class="left_header_container">
-            <div class="left_header_column  col  col-xxs-12 col-xs-6">
-              <?php include '_/components/php/header_title.php'; ?>
-            </div><!-- left_header_column -->
-          </section> <!-- left_header_container -->
-
-          <section class="right_header_container">
-            <div class="right_header_column  col  col-xxs-12 col-sm-4  col-sm-offset-1">
-              <?php include '_/components/php/header_quotes.php'; ?>
-             </div> <!-- right_header_column -->
-
-
-          </section> <!-- right_header_container -->
-        
-        </div> <!-- row -->       
-        <hr>     
-      </header> <!-- header -->
- 
+      <?php include '_/components/php/header.php'; ?>
 
 
 <!-- navigation -->
-       <nav class="top_nav">
-        <ul class="nav nav-pills  nav-justified">
-            <?php include '_/components/php/nav.php'; ?>
-        </ul>
-      </nav> <!-- top_nav --> 
+      <?php include '_/components/php/navigation.php'; ?> 
 
 
 <!-- content -->

@@ -59,18 +59,17 @@
 
 
 // My variables
-@black: #000;
-@measure: 15px;
-@white: #fff;
+  @black: #000;
+  @measure: 15px;
+  @white: #fff;
 
 
 // global styles
   body {
     background-color: @black;
-    
-    @media all and (max-width: @screen-sm) {
-      background-color: @white;
-      }
+    //@media all and (max-width: @screen-sm) {
+      //background-color: @white;
+      //}
     
 
     a {
@@ -114,7 +113,8 @@
 
         #header_quotes {
           text-align: center;
-          padding-top: @measure;
+          padding-top: @measure * 2;
+          padding-bottom: @measure * 2;
         }       
 
 

@@ -34,7 +34,32 @@
 }
 
 // Visibility utilities
-
+.visible-xxs {
+  .responsive-visibility();
+  @media (max-width: @screen-xxs-max) {
+    .responsive-invisibility();
+  }
+  &.visible-xs {
+    @media (max-width: @screen-xs-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.visible-sm {
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.visible-md {
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.visible-lg {
+    @media (min-width: @screen-lg-min) {
+      .responsive-invisibility();
+    }
+  }
+}
 .visible-xs {
   .responsive-invisibility();
   &.visible-xxs {
