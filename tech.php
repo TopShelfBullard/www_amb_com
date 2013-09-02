@@ -23,6 +23,10 @@
           
           <div class="tab_pane_code col col-xxs-12 col-sm-6">           
 
+            <div class="tech_img_right  col  col-xxs-12  col-xs-12  hidden-sm  hidden-md  hidden-lg">
+              <img  src="images/tech_with_helen1.png" alt="Profile picture" width="100%" class="tech_img">
+            </div>
+
             <h1>Code</h1>           
             <section class="tabbable tabs">              
               <ul class="nav nav-tabs">  
@@ -56,8 +60,8 @@
             </div> <!-- tab_content -->   
           
 
-            <div class="tech_img_left  col  col-xxs-12  col-xs-6  col-sm-12">
-              <img  src="images/tech_with_helen1.png" alt="Profile picture" width="100%" class="tech_img">
+            <div class="tech_img_left  col  col-xxs-12">
+              <img  src="images/tech.png" alt="Profile picture" width="100%" class="tech_img">
             </div>
 
 
@@ -67,8 +71,8 @@
 
           <div class="tab_pane_projects col col-xxs-12 col-sm-6">
 
-            <div class="tech_img_right  col  col-xxs-12 col-xs-6 col-sm-12">
-              <img  src="images/tech.png" alt="Profile picture" width="100%" class="tech_img">
+            <div class="tech_img_right  col  hidden-xxs  hidden-xs  col-xs-12">
+              <img  src="images/tech_with_helen1.png" alt="Profile picture" width="100%" class="tech_img">
             </div>
 
             <h1>Projects</h1>
