@@ -67,6 +67,8 @@
 // global styles
   body {
     background-color: @black;
+    min-width: 350px;
+    text-align: center;
     //@media all and (max-width: @screen-sm) {
       //background-color: @white;
       //}
@@ -75,18 +77,6 @@
     a {
       color: @black;
       font-weight: bold;
-    }
-
-    h1 {
-      text-align: center;
-    }
-
-    h2 {
-      text-align: center;
-    }
-
-    h3 {
-      text-align: center;
     }
 
     p {
@@ -102,7 +92,7 @@
       header {
         //background-color: @gray-lighter;
       }    
-        
+
         .page_heading {
           text-align: center;
         }
@@ -112,7 +102,6 @@
         }
 
         #header_quotes {
-          text-align: center;
           padding-top: @measure * 2;
           padding-bottom: @measure * 2;
         }       
@@ -154,16 +143,49 @@
 
 //styles for the novel page
 
-      .indent {
-        padding-left: @measure;
-        padding-top: @measure / 2;
-        padding-bottom: @measure /2;
-      }
-
       #novel_teaser {
         padding-top: @measure * 1.5;
-        img {
-          padding-top: 20px;
-          padding-bottom: 20px;
+        
+            #novel_teaser_body {
+              margin-top: @measure * 2;
+            }
+
+            #novel_teaser_intro {
+              padding-bottom: @measure * 2;
+            } 
+
+          #novel_teaser_outro {
+              padding-top: @measure * 2;
+            }
+
+          .book_one_container {
+              padding-top: @measure * 2;
+            }
+               
+      }
+
+      .novel_reviews {
+        margin-top: @measure * 2;
+        border: 2px solid @gray-lighter;
+        button {
+          background-color: @gray-light; 
+          color: yellow;
+        }
+        .reviews_heading {
+          @media all and (min-width: @screen-md) {
+            margin-top: @measure * 6;
+          } 
+        }
+        .left_novel_review {
+          @media all and (min-width: @screen-md) {
+            margin-top: @measure * 7;
+          } 
+        }
+        .review_area_item {
+           @media all and (max-width: @screen-md) {
+            padding-bottom: @measure * 3;
+          }          
         }
       }
+
+      

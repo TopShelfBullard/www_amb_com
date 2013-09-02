@@ -16,7 +16,7 @@
 <!-- navigation -->
       <?php include '_/components/php/navigation.php'; ?> 
 
-      
+
 
 <!-- content -->
       <div class="content_container  container  col  col-xxs-12">              
@@ -49,13 +49,8 @@
 
 
 <!-- footer -->
-      <footer>
-        <hr>
-        <div class="row">
-          <?php include '_/components/php/footer_content.php'; ?>
-        </div> <!-- row -->
-      </footer>
-      
+      <?php include '_/components/php/footer.php'; ?>
+    
     </div> <!-- main_container -->
 
   <?php include '_/components/php/script_tags.php'; ?>
