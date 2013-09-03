@@ -81,7 +81,7 @@
               <ul class="nav nav-tabs">  
                 <li class="active"><a href="#nerdwords" data-toggle="tab">NERDWORDS</a></li>
                 <li><a href="#revisionist" data-toggle="tab">REVISIONIST</a></li>
-                <li><a href="#c#" data-toggle="tab">C#</a></li>                 
+                <li><a href="#c_sharp" data-toggle="tab">C#</a></li>                 
               </ul>
             </section> <!-- tabbable -->
 
@@ -99,9 +99,9 @@
                 </div> <!-- col -->         
               </section> <!-- tab_pane --> 
 
-              <section class="tab-pane" id="c#">                     
+              <section class="tab-pane" id="c_sharp">                     
                 <div class="col col-xxs-12">
-                  <?php include '_/components/php/tech_c#.php'; ?>
+                  <?php include '_/components/php/tech_projects_c#.php'; ?>
                 </div> <!-- col -->           
               </section> <!-- tab_pane -->
                 

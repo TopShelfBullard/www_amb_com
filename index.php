@@ -10,7 +10,14 @@
 
 <!-- header --> 
       <?php include '_/components/php/header.php'; ?>
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 
 <!-- navigation -->
@@ -46,14 +53,14 @@
 
         </div> <!-- row -->     
       </div> <!-- content_container -->
-
+  <?php include '_/components/php/script_tags.php'; ?>
+<div class="fb-like" data-href="http://developers.facebook.com/docs/reference/plugins/like" data-width="450" data-show-faces="true" data-send="true"></div>
 
 <!-- footer -->
       <?php include '_/components/php/footer.php'; ?>
     
     </div> <!-- main_container -->
 
-  <?php include '_/components/php/script_tags.php'; ?>
 
   </body>
 </html>

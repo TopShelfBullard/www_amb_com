@@ -11,6 +11,11 @@
     I enjoy making fun of JavaScript, but I must admit that it was a programming fundamentals course with a spectacular professor
     and none other that plain old JavaScript that initially hooked me on programming. At the time I did little else other than work
     on JavaScript and by the end of the eight week course I was working comfortably with the DOM, experimenting with OOP, and
-    beginning to branch out into jQuery. I still enjoy JavaScript very much, and I recently wrote a little web app called "The Revisionist"
-    that you can check out by clicking the 'app' link above.
+    beginning to branch out into jQuery. 
   </p>
+  <p>
+    I still enjoy JavaScript very much, in fact, I am currently writing a small web app in jQuery for my children that will help them
+    learn great moments in history, literature, and music without realizing that they are studying. I have also begun a daily
+    JavaScript class for my daughter.
+  </p>
+  
