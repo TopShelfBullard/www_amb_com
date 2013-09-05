@@ -4,25 +4,16 @@
     <title>A. Mitchell Bullard - Home</title>
     <?php include '_/components/php/head_tag_contents.php'; ?>
   </head>
-  <body id="body_home">
+  <body id="body_novel">
     <div class="main_container  container">
 
 
 <!-- header --> 
       <?php include '_/components/php/header.php'; ?>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 
 
 <!-- navigation -->
       <?php include '_/components/php/navigation.php'; ?> 
-
 
 
 <!-- content -->
@@ -46,7 +37,7 @@
                     <?php include '_/components/php/content_li_novel.php'; ?>
                   </div> <!-- left_content_two -->
                   <div class="right_content_two  col  col-xxs-12 col-xs-8 col-xs-offset-2">
-                    <?php include '_/components/php/content_li_blog.php'; ?>
+                    <?php include '_/components/php/content_li_contact.php'; ?>
                   </div> <!-- right_content_two -->
                 </div> <!-- row -->      
               </section> <!-- content_column_two -->
@@ -54,7 +45,7 @@
         </div> <!-- row -->     
       </div> <!-- content_container -->
   <?php include '_/components/php/script_tags.php'; ?>
-<div class="fb-like" data-href="http://developers.facebook.com/docs/reference/plugins/like" data-width="450" data-show-faces="true" data-send="true"></div>
+
 
 <!-- footer -->
       <?php include '_/components/php/footer.php'; ?>

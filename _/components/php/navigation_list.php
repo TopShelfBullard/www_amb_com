@@ -7,4 +7,4 @@
 
 <li>  <a href="family.php">FAMILY</a> </li>        
 
-<li>  <a href="http://bullardamitchell.wordpress.com/">BLOG</a> </li> 
+<li>  <a href="contact.php">CONTACT</a> </li> 

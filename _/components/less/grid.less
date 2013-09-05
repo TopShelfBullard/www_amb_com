@@ -90,7 +90,10 @@
 //
 // Note that `.col-xs-12` doesn't get floated on purpose—there's no need since
 // it's full-width.
-
+@media (min-width: @screen-xxs) {
+  .container {
+    max-width: @container-narrow-phone;
+  }
 .col-xxs-1,
 .col-xxs-2,
 .col-xxs-3,
@@ -116,7 +119,44 @@
 .col-xxs-10 { width: percentage((10/ @grid-columns)); }
 .col-xxs-11 { width: percentage((11/ @grid-columns)); }
 .col-xxs-12 { width: 100%; }
+// Push and pull columns for source order changes
+.col-xxs-push-1  { left: percentage((1 / @grid-columns)); }
+.col-xxs-push-2  { left: percentage((2 / @grid-columns)); }
+.col-xxs-push-3  { left: percentage((3 / @grid-columns)); }
+.col-xxs-push-4  { left: percentage((4 / @grid-columns)); }
+.col-xxs-push-5  { left: percentage((5 / @grid-columns)); }
+.col-xxs-push-6  { left: percentage((6 / @grid-columns)); }
+.col-xxs-push-7  { left: percentage((7 / @grid-columns)); }
+.col-xxs-push-8  { left: percentage((8 / @grid-columns)); }
+.col-xxs-push-9  { left: percentage((9 / @grid-columns)); }
+.col-xxs-push-10 { left: percentage((10/ @grid-columns)); }
+.col-xxs-push-11 { left: percentage((11/ @grid-columns)); }
 
+.col-xxs-pull-1  { right: percentage((1 / @grid-columns)); }
+.col-xxs-pull-2  { right: percentage((2 / @grid-columns)); }
+.col-xxs-pull-3  { right: percentage((3 / @grid-columns)); }
+.col-xxs-pull-4  { right: percentage((4 / @grid-columns)); }
+.col-xxs-pull-5  { right: percentage((5 / @grid-columns)); }
+.col-xxs-pull-6  { right: percentage((6 / @grid-columns)); }
+.col-xxs-pull-7  { right: percentage((7 / @grid-columns)); }
+.col-xxs-pull-8  { right: percentage((8 / @grid-columns)); }
+.col-xxs-pull-9  { right: percentage((9 / @grid-columns)); }
+.col-xxs-pull-10 { right: percentage((10/ @grid-columns)); }
+.col-xxs-pull-11 { right: percentage((11/ @grid-columns)); }
+
+// Offsets
+.col-xxs-offset-1  { margin-left: percentage((1 / @grid-columns)); }
+.col-xxs-offset-2  { margin-left: percentage((2 / @grid-columns)); }
+.col-xxs-offset-3  { margin-left: percentage((3 / @grid-columns)); }
+.col-xxs-offset-4  { margin-left: percentage((4 / @grid-columns)); }
+.col-xxs-offset-5  { margin-left: percentage((5 / @grid-columns)); }
+.col-xxs-offset-6  { margin-left: percentage((6 / @grid-columns)); }
+.col-xxs-offset-7  { margin-left: percentage((7 / @grid-columns)); }
+.col-xxs-offset-8  { margin-left: percentage((8 / @grid-columns)); }
+.col-xxs-offset-9  { margin-left: percentage((9 / @grid-columns)); }
+.col-xxs-offset-10 { margin-left: percentage((10/ @grid-columns)); }
+.col-xxs-offset-11 { margin-left: percentage((11/ @grid-columns)); }
+}
 @media (min-width: @screen-xs) {
   .container {
     max-width: @container-phone;

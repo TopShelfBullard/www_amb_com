@@ -120,6 +120,101 @@ $(document).ready(function() {
 
   $("#quote5").css("display", "none");
 
+    $(".glyphicon-star").hover(
+    function() {
+      $(this).addClass("star_hover");
+      $(this).prevUntil(".stars").addClass("star_hover");
+      },
+    function() {
+      $(this).removeClass("star_hover");
+      $(this).prevUntil(".stars").removeClass("star_hover");
+    });
+
+github = $(".github");
+githubOff = $(".github_off");
+githubOn = $(".github_on");
+
+github.hover(
+  function() {
+    githubOff.css("display", "none");
+    githubOn.css("display", "inline");
+  },
+  function() {
+    githubOn.css("display", "none");
+    githubOff.css("display", "inline");
+  });
+
+twitter = $(".twitter");
+twitterOff = $(".twitter_off");
+twitterOn = $(".twitter_on");
+
+twitter.hover(
+  function() {
+    twitterOff.css("display", "none");
+    twitterOn.css("display", "inline");
+  },
+  function() {
+    twitterOn.css("display", "none");
+    twitterOff.css("display", "inline");
+  });
+
+mail = $(".mail");
+mailOff = $(".mail_off");
+mailOn = $(".mail_on");
+
+mail.hover(
+  function() {
+    mailOff.css("display", "none");
+    mailOn.css("display", "inline");
+  },
+  function() {
+        mailOn.css("display", "none");
+        mailOff.css("display", "inline");
+  });
+
+facebook = $(".facebook");
+facebookOff = $(".facebook_off");
+facebookOn = $(".facebook_on");
+
+facebook.hover(
+  function() {
+    facebookOff.css("display", "none");
+    facebookOn.css("display", "inline");
+  },
+  function() {
+        facebookOn.css("display", "none");
+        facebookOff.css("display", "inline");
+  });
+
+googleplus= $(".googleplus");
+googleplusOff = $(".googleplus_off");
+googleplusOn = $(".googleplus_on");
+
+googleplus.hover(
+  function() {
+    googleplusOff.css("display", "none");
+    googleplusOn.css("display", "inline");
+  },
+  function() {
+        googleplusOn.css("display", "none");
+        googleplusOff.css("display", "inline");
+  });
+
+linkedin = $(".linkedin");
+linkedinOff = $(".linkedin_off");
+linkedinOn = $(".linkedin_on");
+
+linkedin.hover(
+  function() {
+    linkedinOff.css("display", "none");
+    linkedinOn.css("display", "inline");
+  },
+  function() {
+        linkedinOn.css("display", "none");
+        linkedinOff.css("display", "inline");
+  });
+
   getNewQuoteForHeader();
+
 
 });
