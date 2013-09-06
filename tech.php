@@ -5,7 +5,7 @@
     <?php include '_/components/php/head_tag_contents.php'; ?>
   </head>
   <body id="body_tech">
-    <div class="main_container container">
+    <section id="main_container" class="container">
 
 
 <!-- header --> 
@@ -17,14 +17,14 @@
 
 
 <!-- content --> 
-      <div class="content_container  container  col  col-xxs-12">
+      <section id="content_container" class="container  col  col-xxs-12">
         <div class="row">  
 
           
           <div class="tab_pane_code col col-xxs-12 col-sm-6">           
 
             <div class="tech_img_right  col  col-xxs-12  col-xs-12  hidden-sm  hidden-md  hidden-lg">
-              <img  src="images/tech_with_helen1.png" alt="Profile picture" width="100%" class="tech_img">
+              <img  src="images/tech_with_helen1.png" alt="A. Mitchell Bullard hacking with his daugther" width="100%" class="tech_img">
             </div>
 
             <h1>Code</h1>           
@@ -61,7 +61,7 @@
           
 
             <div class="tech_img_left  col  col-xxs-12">
-              <img  src="images/tech.png" alt="Profile picture" width="100%" class="tech_img">
+              <img  src="images/tech.png" alt="A. Mitchell Bullard hacking in the grass" width="100%" class="tech_img">
             </div>
 
 
@@ -72,7 +72,7 @@
           <div class="tab_pane_projects col col-xxs-12 col-sm-6">
 
             <div class="tech_img_right  col  hidden-xxs  hidden-xs  col-xs-12">
-              <img  src="images/tech_with_helen1.png" alt="Profile picture" width="100%" class="tech_img">
+              <img  src="images/tech_with_helen1.png" alt="A. Mitchell Bullard hacking with his daugther" width="100%" class="tech_img">
             </div>
 
             <h1>Projects</h1>
@@ -113,13 +113,13 @@
 
 
         </div> <!-- row -->
-      </div> <!-- content_container -->
+      </section> <!-- content_container -->
 
      
 <!-- footer -->
       <?php include '_/components/php/footer.php'; ?>
     
-    </div> <!-- main_container -->
+    </section> <!-- main_container -->
 
   <?php include '_/components/php/script_tags.php'; ?>
 

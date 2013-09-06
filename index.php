@@ -5,14 +5,14 @@
     <?php include '_/components/php/head_tag_contents.php'; ?>
   </head>
   <body id="body_novel">
-    <div class="main_container  container">
+    <section id="main_container" class="container">
 
 
 <!-- header --> 
       <?php include '_/components/php/header.php'; ?>
 
 <!-- content -->
-      <div class="content_container  container  col  col-xxs-12">              
+      <section id="content_container" class="container  col  col-xxs-12">              
         <div class="row">         
              
               <section class="content_column_one  col  col-xxs-12  col-sm-6">
@@ -38,14 +38,14 @@
               </section> <!-- content_column_two -->
 
         </div> <!-- row -->     
-      </div> <!-- content_container -->
+      </section> <!-- content_container -->
   <?php include '_/components/php/script_tags.php'; ?>
 
 
 <!-- footer -->
       <?php include '_/components/php/footer.php'; ?>
     
-    </div> <!-- main_container -->
+    </section> <!-- main_container -->
 
 
   </body>

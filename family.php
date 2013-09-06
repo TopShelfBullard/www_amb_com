@@ -5,7 +5,7 @@
     <?php include '_/components/php/head_tag_contents.php'; ?>
   </head>
   <body id="body_family">
-    <div class="main_container  container">
+    <section id="main_container"  class="container">
 
 
 <!-- header --> 
@@ -17,9 +17,9 @@
 
 
 <!-- content -->
-      <div class="content_container  container  col  col-xxs-12">
+      <section id="content_container" class="container  col  col-xxs-12">
         <h1>My apologies, the family page is still in development.</h1> 
-      </div> <!-- content_container -->
+      </section> <!-- content_container -->
 
 <!-- footer -->
       <footer>
@@ -29,7 +29,7 @@
         </div> <!-- row -->
       </footer>
       
-    </div> <!-- main_container -->
+    </section> <!-- main_container -->
 
   <?php include '_/components/php/script_tags.php'; ?>
 

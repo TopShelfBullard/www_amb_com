@@ -5,7 +5,7 @@
     <?php include '_/components/php/head_tag_contents.php'; ?>
   </head>
   <body id="body_novel">
-    <div class="main_container  container">
+    <section id="main_container" class="container">
 
 
 <!-- header --> 
@@ -17,7 +17,7 @@
 
 
 <!-- content -->
-      <div class="content_container container">
+      <section id="content_container" class="container">
         <div class="novel_teaser col-xss-12 col-sm-7 col-md-6 col-lg-6">
           <div class="row">
 
@@ -249,12 +249,12 @@
           </div> <!-- panel -->
         </div> <!-- novel_reviews_panel -->
 
-      </div> <!-- content_container -->
+      </section> <!-- content_container -->
   
 <!-- footer -->
       <?php include '_/components/php/footer.php'; ?>
     
-    </div> <!-- main_container -->
+    </section> <!-- main_container -->
 
     <?php include '_/components/php/script_tags.php'; ?>
 

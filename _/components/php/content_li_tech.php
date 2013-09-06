@@ -6,6 +6,6 @@
   </a>               
 </li>
 <br>
-<img  src="images/tech.png" alt="Developing in the sun on his Mac" width="100%" class="tech_img">
+<img  src="images/tech.png" alt="A. Mitchell Bullard Hacking in the grass" width="100%" class="tech_img">
 
 </ul>
