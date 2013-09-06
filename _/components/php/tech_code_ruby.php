@@ -16,5 +16,6 @@
   MVC pattern, as well as the first time that I left the client side to see how good the view was from the server. Configuration
   tied me up for a while, and I am ashamed to admit that I spoke many uncharitable words to the poor Ruby Gems in my
   GEMFILE. All of that is in the rear view mirror now, though, and after a summer of Rails development, I am working on my
-  first serious web app and I have recently taken over the web master duties for the Chippewa Valley Habitat for Humanities.
+  first serious web app and I have recently agreed to take over the web master duties for the Chippewa Valley Habitat for
+  Humanities.
 </p>

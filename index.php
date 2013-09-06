@@ -11,11 +11,6 @@
 <!-- header --> 
       <?php include '_/components/php/header.php'; ?>
 
-
-<!-- navigation -->
-      <?php include '_/components/php/navigation.php'; ?> 
-
-
 <!-- content -->
       <div class="content_container  container  col  col-xxs-12">              
         <div class="row">         

@@ -18,8 +18,7 @@
 
 <!-- content -->
       <div class="content_container  container  col  col-xxs-12">
-        <h1>Family Page</h1>
-        
+        <h1>My apologies, the family page is still in development.</h1> 
       </div> <!-- content_container -->
 
 <!-- footer -->

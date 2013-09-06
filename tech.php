@@ -79,29 +79,29 @@
 
             <section class="tabbable tabs">              
               <ul class="nav nav-tabs">  
-                <li class="active"><a href="#nerdwords" data-toggle="tab">NERDWORDS</a></li>
-                <li><a href="#revisionist" data-toggle="tab">REVISIONIST</a></li>
-                <li><a href="#c_sharp" data-toggle="tab">C#</a></li>                 
+                <li class="active"><a href="#c_sharp" data-toggle="tab">C#</a></li>
+                <li><a href="#nerdwords" data-toggle="tab">NERDWORDS</a></li>
+                <li><a href="#helen_js" data-toggle="tab">HELEN.JS</a></li>                 
               </ul>
             </section> <!-- tabbable -->
 
             <div class="tab-content">
                                           
-              <section class="tab-pane active" id="nerdwords">                     
+              <section class="tab-pane active" id="c_sharp">                     
                 <div class="col col-xxs-12"> 
-                 <?php include '_/components/php/tech_projects_nerdwords.php'; ?>
+                 <?php include '_/components/php/tech_projects_c_sharp.php'; ?>
                 </div> <!-- col -->           
               </section> <!-- tab_pane --> 
 
-              <section class="tab-pane" id="revisionist"> 
+              <section class="tab-pane" id="nerdwords"> 
                 <div class="col col-xxs-12">
-                  <?php include '_/components/php/tech_projects_revisionist.php'; ?>
+                  <?php include '_/components/php/tech_projects_nerdwords.php'; ?>
                 </div> <!-- col -->         
               </section> <!-- tab_pane --> 
 
-              <section class="tab-pane" id="c_sharp">                     
+              <section class="tab-pane" id="helen_js">                     
                 <div class="col col-xxs-12">
-                  <?php include '_/components/php/tech_projects_c#.php'; ?>
+                  <?php include '_/components/php/tech_projects_helen_js.php'; ?>
                 </div> <!-- col -->           
               </section> <!-- tab_pane -->
                 
