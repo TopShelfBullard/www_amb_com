@@ -5,7 +5,7 @@
     <?php include '_/components/php/head_tag_contents.php'; ?>
   </head>
   <body id="body_family">
-    <section id="main_container" class="container">
+    <section  class="main_container  container">
 
 
 <!-- header --> 
@@ -17,23 +17,21 @@
 
 
 <!-- content -->
-      <section id="content_container" class="content_container  container">
+      <section class="content_container  container  col  col-xxs-12">
         
         <div class="col  col-xxs-12">
           <div class="row">
-            
-             
+                    
              <a href="https://twitter.com/TopShelfBullard">
               <div class="twitter  col  col-xxs-6   col-xs-3  col-sm-2  col-sm-offset-0">         
                 <div class="twitter_off">
-                  <img  src="images/icons/twitter.png" alt="black and white twitter icon">
+                  <img  src="images/icons/twitter.png" alt="black and white twitter icon" width="100%">
                 </div>
                 <div class=" twitter_on">
-                  <img  src="images/icons/twitter-icon.png" alt="twitter icon"> 
+                  <img  src="images/icons/twitter-icon.png" alt="twitter icon" width="100%"> 
                 </div>                 
               </div>
             </a>           
-
 
             <a href="https://github.com/TopShelfBullard">
               <div class="github  col  col-xxs-6  col-xs-3  col-xs-offset-1   col-sm-2  col-sm-offset-2">             
@@ -57,7 +55,6 @@
                 </div>           
               </div>
             </a>
-
 
           </div>
         </div>
@@ -113,11 +110,10 @@
         <div class="row">
           <?php include '_/components/php/footer_content.php'; ?>
         </div> <!-- row -->
-      </footer>
-      
+      </footer>   
+    
+
     </section> <!-- main_container -->
-
-  <?php include '_/components/php/script_tags.php'; ?>
-
+    <?php include '_/components/php/script_tags.php'; ?>
   </body>
 </html>

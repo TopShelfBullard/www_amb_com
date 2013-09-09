@@ -1,5 +1,3 @@
-<section id="header_quotes">
-
   <aside id="quote1" class="quotes">
     The true sign of intelligence is not knowledge but imagination.
     <br><br>
@@ -159,5 +157,3 @@
     <br><br>
     -Steve Wozniak 
   </aside>
-
-</section> <!-- end header_quotes -->

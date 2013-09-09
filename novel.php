@@ -5,7 +5,7 @@
     <?php include '_/components/php/head_tag_contents.php'; ?>
   </head>
   <body id="body_novel">
-    <section id="main_container" class="container">
+    <section  class="main_container  container">
 
 
 <!-- header --> 
@@ -17,11 +17,11 @@
 
 
 <!-- content -->
-      <section id="content_container" class="container">
-        <div class="novel_teaser col-xss-12 col-sm-7 col-md-6 col-lg-6">
+      <section class="content_container  container    col  col-xxs-12">
+        <div id="novel_teaser" class="col-xss-12 col-sm-7 col-md-6 col-lg-6">
           <div class="row">
 
-            <div class="novel_info_container  container">
+            <section id="novel_info_container" class="container">
               <div class="row">
                 <div class=" col col-xxs-12  hidden-sm  hidden-md  hidden-lg">
 
@@ -39,17 +39,17 @@
              
                 </div> <!-- column -->
               </div> <!-- row -->
-            </div> <!-- novel_info_container -->
+            </section> <!-- novel_info_container -->
 
 
-            <div id="novel_teaser_body" class="well">
+            <section id="novel_teaser_body" class="well">
               <div class="row">
 
-                <section class="novel_teaser_intro col col-xxs-12">
+                <section id="novel_teaser_intro" class="col col-xxs-12">
                   <h5>Your journey begins soon.</h5>
                 </section><!-- column -->                 
 
-                <section class="novel_teaser_column_one  col col-xxs-12  col-xs-6">                 
+                <section id="novel_teaser_column_one"  class="col col-xxs-12  col-xs-6">                 
                   <p>
                     Follow Alexander Wright as he is torn from his junior high life in Minneapolis. Travel with him to a new world, The
                     Creitium Anivis, where an epic adventure awaits.
@@ -64,7 +64,7 @@
                   </p>
                 </section> <!-- novel_teaser_column_one  -->
 
-                <section class="novel_teaser_column_two  col col-xxs-12  col-xs-6">
+                <section id="novel_teaser_column_two" class="col col-xxs-12  col-xs-6">
                   <p> 
                     blood-red directions upon the back of your hand in a forbidden language that you shouldn't understand:
                   </p>               
@@ -80,18 +80,18 @@
                   </blockquote>                   
                 </section> <!-- novel_teaser_column_two  -->
                 
-                <section class="novel_teaser_outro  col col-xxs-12">
+                <section id="novel_teaser_outro" class="col col-xxs-12">
                   <h5>Your journey begins soon, exclusively on Amazon.</h5>                 
                 </section> <!-- novel_teaser_outro -->
 
               </div> <!-- row -->
-            </div> <!-- novel_teaser_body -->
+            </section> <!-- novel_teaser_body -->
 
           </div> <!-- row -->
         </div> <!-- novel_teaser -->
             
 
-        <div class="img_container  container">
+        <section id="img_container" class="container">
           <div class="row">
             <div class="col col-sm-5 col-md-6 col-lg-6">
 
@@ -107,31 +107,30 @@
                 <img  src="images/novel_dark.png" alt="Cover image for A. Mitchell Bullard's debut novel" width="100%" class="novel_img">
               </section>
 
-              <div class="book_one_container container">
-                <section class="col  hidden-xxs  hidden-xs  col-md-9  col-md-offset-2 col-lg-12 col-lg-offset-0">
+              <section id="book_one_container" class="container">
+                <div class="col  hidden-xxs  hidden-xs  col-md-9  col-md-offset-2 col-lg-12 col-lg-offset-0">
                   <h4>Book One: Miles of Mystery and Mayhem</h4>              
-                </section>
-              </div> <!-- book_one_container -->
+                </div>
+              </section> <!-- book_one_container -->
 
             </div> <!-- column -->
           </div> <!-- row -->
-        </div> <!-- img_container -->
+        </section> <!-- img_container -->
 
 
         
 
-        <div class="novel_reviews_panel col col-xxs-12 col-sm-10 col-sm-offset-1">
+        <section id="novel_reviews_panel" class="col col-xxs-12 col-sm-10 col-sm-offset-1">
           
           <div class="panel panel-default">
- 
-            <section class="panel-heading  col col-xxs-12">
+
+            <section id="panel-heading" class="col col-xxs-12">
               <h4>Praise for Miles of Mystery and Mayhem:</h4>
-            </section> <!-- panel_heading -->
-            
-            <div class="panel-body">
-              <div class="novel_reviews_column_one  col col-xxs-12  col-md-7">
-                
-                <section class="left_novel_review  review_area_item  col col-xxs-12">
+            </section> <!-- panel_heading -->           
+            <section class="panel-body">
+              
+              <section id="novel_reviews_column_one" class="col col-xxs-12  col-md-7">                              
+                <div class="left_novel_review  review_area_item  col col-xxs-12">
                   <ul class=" nav nav-pills  nav-justified">
                     <li class="review_link">
                       <a href ="http://www.amazon.com/Mystery-Magical-Journeys-Alexander-ebook/product-reviews/B0083YU4II/ref=sr_1_1_cm_cr_acr_txt?ie=UTF8&showViewpoints=1">
@@ -180,15 +179,11 @@
                     you ever dreamed you could be; classic fantasy. Looking forward to following Alexander on his many
                     magical adventures."
                   </p>
-                </section> <!-- left_novel_review -->
-           
-
-              </div> <!-- novel_reviews_column_one -->
+                </div> <!-- left_novel_review -->
+              </section> <!-- novel_reviews_column_one -->
 
 
-
-              <div class="novel_reviews_column_two  col  col-xxs-12 col-md-5">
-
+              <section id="novel_reviews_column_two" class="col  col-xxs-12 col-md-5">
 
                 <section class="right_novel_review  review_area_item  col  col-xxs-12">
                   <ul class="nav nav-pills  nav-justified">
@@ -236,27 +231,30 @@
                   </p>
                 </section> <!-- right_novel_review -->
 
-              </div> <!-- novel_reviews_column_two -->
-            </div> <!-- panel_body -->
+              </section> <!-- novel_reviews_column_two -->
+            </section> <!-- panel_body -->
             
-            <div class="panel-footer">
+            <section class="panel-footer">
               <h4>The Many Magical Journeys of Alexander Wright on Amazon:</h4>
               <a class="btn" href ="http://www.amazon.com/Mystery-Magical-Journeys-Alexander-ebook/dp/B0083YU4II/ref=cm_cr_pr_product_top">
                 <button type="button" class="btn btn-default btn-lg">Purchase</button>
               </a>
-            </div> <!-- panel_footer -->
-
+            </section> <!-- panel_footer -->
           </div> <!-- panel -->
-        </div> <!-- novel_reviews_panel -->
+        </section> <!-- novel_reviews_panel -->
 
       </section> <!-- content_container -->
   
 <!-- footer -->
-      <?php include '_/components/php/footer.php'; ?>
+      <footer>
+        <hr>
+        <div class="row">
+          <?php include '_/components/php/footer_content.php'; ?>
+        </div> <!-- row -->
+      </footer>   
     
+
     </section> <!-- main_container -->
-
     <?php include '_/components/php/script_tags.php'; ?>
-
   </body>
 </html>

@@ -5,7 +5,7 @@
     <?php include '_/components/php/head_tag_contents.php'; ?>
   </head>
   <body id="body_tech">
-    <section id="main_container" class="container">
+    <section  class="main_container  container">
 
 
 <!-- header --> 
@@ -16,8 +16,8 @@
       <?php include '_/components/php/navigation.php'; ?> 
 
 
-<!-- content --> 
-      <section id="content_container" class="container  col  col-xxs-12">
+<!-- content -->
+      <section class="content_container  container  col  col-xxs-12">
         <div class="row">  
 
           
@@ -117,11 +117,15 @@
 
      
 <!-- footer -->
-      <?php include '_/components/php/footer.php'; ?>
+      <footer>
+        <hr>
+        <div class="row">
+          <?php include '_/components/php/footer_content.php'; ?>
+        </div> <!-- row -->
+      </footer>   
     
+
     </section> <!-- main_container -->
-
-  <?php include '_/components/php/script_tags.php'; ?>
-
+    <?php include '_/components/php/script_tags.php'; ?>
   </body>
 </html>
