@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>A. Mitchell Bullard - Resume</title>
+    <title>A. Mitchell Bullard - Family</title>
     <?php include '_/components/php/head_tag_contents.php'; ?>
   </head>
   <body id="body_family">
