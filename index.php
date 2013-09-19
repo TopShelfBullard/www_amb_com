@@ -4,7 +4,7 @@
     <title>A. Mitchell Bullard - Home</title>
     <?php include '_/components/php/head_tag_contents.php'; ?>
   </head>
-  <body id="body_novel">
+  <body id="body_home">
     <section  class="main_container  container">
 
 
