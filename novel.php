@@ -2,18 +2,18 @@
 <html lang="en">
   <head>
     <title>A. Mitchell Bullard - Novel</title>
-    <?php include '_/components/php/head_tag_contents.php'; ?>
+    <?php include '_/components/php/common_content_head_tag_contents.php'; ?>
   </head>
   <body id="body_novel">
     <section  class="main_container  container">
 
 
 <!-- header --> 
-      <?php include '_/components/php/header.php'; ?>
+      <?php include '_/components/php/common_content_header.php'; ?>
 
 
 <!-- navigation -->
-      <?php include '_/components/php/navigation.php'; ?> 
+      <?php include '_/components/php/common_content_navigation.php'; ?> 
 
 
 <!-- content -->
@@ -142,12 +142,12 @@
       <footer>
         <hr>
         <div class="row">
-          <?php include '_/components/php/footer_content.php'; ?>
+          <?php include '_/components/php/common_content_footer_content.php'; ?>
         </div> <!-- row -->
       </footer>   
     
 
     </section> <!-- main_container -->
-    <?php include '_/components/php/script_tags.php'; ?>
+    <?php include '_/components/php/common_content_script_tags.php'; ?>
   </body>
 </html>
