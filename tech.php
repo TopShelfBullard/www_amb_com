@@ -17,99 +17,75 @@
 
 
 <!-- content -->
-      <section class="content_container  container  col  col-xxs-12">
+      <section id="tech_content_container" class="content_container  container  col  col-xxs-12">
         <div class="row">  
 
-          
-          <div class="tab_pane_code col col-xxs-12 col-sm-6">           
 
+<!-- code tab pane -->          
+          <section id="tab_pane_code" class="col col-xxs-12 col-sm-6">           
             <div class="tech_img_right  col  col-xxs-12  col-xs-12  hidden-sm  hidden-md  hidden-lg">
               <img  src="images/tech_with_helen1.png" alt="A. Mitchell Bullard hacking with his daugther" width="100%" class="tech_img">
             </div>
 
             <h1>Code</h1>           
-            <section class="tabbable tabs">              
-              <ul class="nav nav-tabs">  
-                <li class="active"><a href="#html_css" data-toggle="tab">HTML/CSS</a></li>
-                <li><a href="#javascript" data-toggle="tab">JAVASCRIPT</a></li>
-                <li><a href="#ruby" data-toggle="tab">RUBY</a></li>                  
-              </ul>
-            </section> <!-- tabbable -->
+            <?php include '_/components/php/tech_code_tabs.php'; ?>
             
-            <div class="tab-content">
-                                      
-              <section class="tab-pane active" id="html_css">                     
+            <section class="tab-content">                                     
+              <section id="html_css" class="tab-pane active" >                     
                 <div class="col col-xxs-12">           
                   <?php include '_/components/php/tech_code_html_css.php'; ?>
                 </div> <!-- col -->           
               </section> <!-- tab_pane --> 
 
-              <section class="tab-pane" id="javascript"> 
+              <section id="javascript" class="tab-pane"> 
                 <div class="col col-xxs-12">
                   <?php include '_/components/php/tech_code_javascript.php'; ?>
                 </div> <!-- col -->         
               </section> <!-- tab_pane --> 
 
-              <section class="tab-pane" id="ruby">                     
+              <section id="ruby" class="tab-pane">                     
                 <div class="col col-xxs-12">           
                   <?php include '_/components/php/tech_code_ruby.php'; ?>
                 </div> <!-- col -->           
-              </section> <!-- tab_pane -->                                                                       
-                                      
-            
-            </div> <!-- tab_content -->   
+              </section> <!-- tab_pane -->                                                                                                                  
+            </section> <!-- tab_content -->   
           
-
             <div class="tech_img_left  col  col-xxs-12">
               <img  src="images/tech.png" alt="A. Mitchell Bullard hacking in the grass" width="100%" class="tech_img">
             </div>
+          </section> <!-- tab_pane_code -->
 
 
-          </div> <!-- tab_pane_one -->
-
-
-
-          <div class="tab_pane_projects col col-xxs-12 col-sm-6">
-
+<!-- projects tab pane -->
+          <div id="tab_pane_projects" class="col col-xxs-12 col-sm-6">
             <div class="tech_img_right  col  hidden-xxs  hidden-xs  col-xs-12">
               <img  src="images/tech_with_helen1.png" alt="A. Mitchell Bullard hacking with his daugther" width="100%" class="tech_img">
             </div>
 
             <h1>Projects</h1>
+              <?php include '_/components/php/tech_projects_tabs.php'; ?>
 
-            <section class="tabbable tabs">              
-              <ul class="nav nav-tabs">  
-                <li class="active"><a href="#c_sharp" data-toggle="tab">C#</a></li>
-                <li><a href="#nerdwords" data-toggle="tab">NERDWORDS</a></li>
-                <li><a href="#helen_js" data-toggle="tab">HELEN.JS</a></li>                 
-              </ul>
-            </section> <!-- tabbable -->
-
-            <div class="tab-content">
+            <section class="tab-content">
                                           
-              <section class="tab-pane active" id="c_sharp">                     
+              <section id="c_sharp" class="tab-pane active">                     
                 <div class="col col-xxs-12"> 
-                 <?php include '_/components/php/tech_projects_c_sharp.php'; ?>
+                  <?php include '_/components/php/tech_projects_c_sharp.php'; ?>
                 </div> <!-- col -->           
               </section> <!-- tab_pane --> 
 
-              <section class="tab-pane" id="nerdwords"> 
+              <section id="nerdwords" class="tab-pane"> 
                 <div class="col col-xxs-12">
                   <?php include '_/components/php/tech_projects_nerdwords.php'; ?>
                 </div> <!-- col -->         
               </section> <!-- tab_pane --> 
 
-              <section class="tab-pane" id="helen_js">                     
+              <section id="helen_js" class="tab-pane">                     
                 <div class="col col-xxs-12">
                   <?php include '_/components/php/tech_projects_helen_js.php'; ?>
                 </div> <!-- col -->           
-              </section> <!-- tab_pane -->
-                
-            </div> <!-- tab-content -->
-          </div> <!-- tab_pane_two --> 
-
-
-
+              </section> <!-- tab_pane -->               
+            </section> <!-- tab-content -->
+          </div> <!-- tab_pane_projects --> 
 
 
         </div> <!-- row -->

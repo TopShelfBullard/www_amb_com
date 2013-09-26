@@ -20,12 +20,12 @@
       <section class="content_container  container  col  col-xxs-12">              
         <div class="row">                     
             <section class="content_column_one  col  col-xxs-12  col-sm-6">
-              <div class="row">
+              <div class="row">              
                 <section id="left_content_one" class="col  col-xxs-12 col-xs-8 col-xs-offset-2">
                   <?php include '_/components/php/content_li_tech.php'; ?> 
                 </section> <!-- left_content_one -->
                 <section class="right_content_one  col  col-xxs-12 col-xs-8 col-xs-offset-2">
-                   <?php include '_/components/php/content_li_family.php'; ?>
+                  <?php include '_/components/php/content_li_family.php'; ?>                  
                 </section><!-- right_content_one-->
               </div><!-- row -->
             </section> <!-- content_column_one -->
@@ -53,6 +53,6 @@
     
 
     </section> <!-- main_container -->
-    <?php include '_/components/php/script_tags.php'; ?>
+      <?php include '_/components/php/script_tags.php'; ?>
   </body>
 </html>
