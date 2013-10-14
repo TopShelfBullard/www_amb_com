@@ -21,7 +21,8 @@
                   </p>
                   <p>
                     Currently, I have decided to take a big step back, though, into plain old Ruby. In order to understand Rails and OOP more fully, I
-                    have taken to solving some of the programming tasks on <a href="http://rosettacode.org/wiki/Category:Programming_Tasks">Rosetta Code. </a>
-                    This has been very fun for me, and rather soon I should be able to provide a link to an A. Mitchell Bullard Rosetta Code submission as well as
-                    a Github repository.
+                    have taken to solving some of the programming tasks on <a href="http://rosettacode.org/wiki/Category:Programming_Tasks">
+                    Rosetta Code. </a>
+                    This has been very fun for me, and rather soon I should be able to provide a link to an A. Mitchell Bullard Rosetta Code submission
+                    as well as a Github repository.
                   </p>

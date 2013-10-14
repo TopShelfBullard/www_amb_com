@@ -6,7 +6,8 @@
 // Base class
 .panel {
   margin-bottom: @line-height-computed;
-  background-color: @panel-bg;
+  background-color: @panel-footer-bg;
+  padding: 10px;
   border: 1px solid transparent;
   border-radius: @panel-border-radius;
   .box-shadow(0 1px 1px rgba(0,0,0,.05));
@@ -15,6 +16,7 @@
 // Panel contents
 .panel-body {
   padding: 15px;
+  background-color: #fff;
   .clearfix();
 }
 

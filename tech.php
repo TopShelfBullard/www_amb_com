@@ -67,9 +67,9 @@
 
             <section class="tab-content">
                                           
-              <section id="c_sharp" class="tab-pane active">                     
+              <section id="rosetta_code" class="tab-pane active">                     
                 <div class="col col-xxs-12"> 
-                  <?php include '_/components/php/tech_projects_c_sharp.php'; ?>
+                  <?php include '_/components/php/tech_projects_rosetta_code.php'; ?>
                 </div> <!-- col -->           
               </section> <!-- tab_pane --> 
 
