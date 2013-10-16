@@ -1,6 +1,6 @@
 <ul class=" nav nav-pills  nav-justified">
                   <li class="review_link">
-                    <a href ="http://www.amazon.com/Mystery-Magical-Journeys-Alexander-ebook/product-reviews/B0083YU4II/ref=sr_1_1_cm_cr_acr_txt?ie=UTF8&showViewpoints=1">
+                    <a href ="http://www.amazon.com/Mystery-Magical-Journeys-Alexander-ebook/product-reviews/B0083YU4II/ref=sr_1_1_cm_cr_acr_txt?ie=UTF8&showViewpoints=1" target="_blank">
                       <h4>What a fun read. :)</h4>
                          <?php include '_/components/php/novel_reviews_stars.php'; ?>
                     </a>
