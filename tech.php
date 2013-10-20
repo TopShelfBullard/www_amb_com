@@ -79,9 +79,9 @@
                 </div> <!-- col -->         
               </section> <!-- tab_pane --> 
 
-              <section id="helen_js" class="tab-pane">                     
+              <section id="helen_rb" class="tab-pane">                     
                 <div class="col col-xxs-12">
-                  <?php include '_/components/php/tech_projects_helen_js.php'; ?>
+                  <?php include '_/components/php/tech_projects_helen_rb.php'; ?>
                 </div> <!-- col -->           
               </section> <!-- tab_pane -->               
             </section> <!-- tab-content -->
