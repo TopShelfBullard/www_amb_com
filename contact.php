@@ -36,7 +36,7 @@
             <a href="https://github.com/TopShelfBullard" target="_blank">
               <div class="github  col  col-xxs-6  col-xs-3  col-xs-offset-1   col-sm-2  col-sm-offset-2">             
                 <div class="github_off">
-                  <img  src="images/icons/github.png" alt="black and white github icon" width="100%">
+                  <img src="images/icons/github.png" alt="black and white github icon" width="100%">
                 </div>
                 <div class=" github_on">
                   <img  src="images/icons/github-icon.png" alt="github icon"  width="100%">

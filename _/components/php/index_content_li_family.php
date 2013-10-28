@@ -1,9 +1,9 @@
 <ul class="nav nav-pills  nav-justified"><br>
-                    <li class="content_nav_family content_nav">
+                    <li class="content_nav_family  content_nav">
                       <a href="family.php">
                         <h1>FAMILY</h1>
-                      </a>  
+                      </a>               
                     </li>
                     <br>
-                    <img  src="images/family.png" alt="playing guitar for the children" width="100%" class="contact_img">
-                  </ul>
+                  <img  src="images/family.png" alt="Profile picture" width="100%" class="family_img">
+                </ul>

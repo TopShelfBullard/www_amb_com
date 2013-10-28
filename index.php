@@ -17,29 +17,70 @@
 
 
 <!-- content -->
-      <section class="content_container  container  col  col-xxs-12">              
-        <div class="row">                     
-            <section class="content_column_one  col  col-xxs-12  col-sm-6">
-              <div class="row">              
-                <section id="left_content_one" class="col  col-xxs-12 col-xs-8 col-xs-offset-2">
-                  <?php include '_/components/php/index_content_li_tech.php'; ?> 
-                </section> <!-- left_content_one -->
-                <section class="right_content_one  col  col-xxs-12 col-xs-8 col-xs-offset-2">
-                  <?php include '_/components/php/index_content_li_family.php'; ?>                  
-                </section><!-- right_content_one-->
-              </div><!-- row -->
-            </section> <!-- content_column_one -->
-            <section id="content_column_two" class="col  col-xxs-12  col-sm-6">
-              <div class="row">
-                <section class="left_content_two  col  col-xxs-12 col-xs-8 col-xs-offset-2">
-                  <?php include '_/components/php/index_content_li_novel.php'; ?>
-                </section> <!-- left_content_two -->
-                <section class="right_content_two  col  col-xxs-12 col-xs-8 col-xs-offset-2">
-                  <?php include '_/components/php/index_content_li_contact.php'; ?>
-                </section> <!-- right_content_two -->
-              </div> <!-- row -->      
-            </section> <!-- content_column_two -->
-        </div> <!-- row -->     
+      <section class="content_container  container  col  col-xxs-12">
+        
+        <div class="row  hidden-lg">         
+          <section id="tech_content_li" class="content_li_structure  col  col-xxs-12  col-xs-6  col-md-5  col-md-offset-1  col-lg-4  col-lg-offset-0">
+            <?php include '_/components/php/index_content_li_tech.php'; ?> 
+          </section> <!-- left_content_one -->
+
+          <section id="novel_content_li" class="content_li_structure  col  col-xxs-12 col-xs-6  col-md-5 col-lg-4">
+            <?php include '_/components/php/index_content_li_novel.php'; ?>                  
+          </section><!-- right_content_one-->
+        </div>
+
+
+        <div class="row  hidden-lg">
+          <section id="family_content_li" class="content_li_structure  col  col-xxs-12  col-xs-6  col-md-5  col-md-offset-1  col-lg-4  col-lg-offset-0">
+            <?php include '_/components/php/index_content_li_family.php'; ?>
+          </section> <!-- left_content_two -->
+
+          <section id="blog_content_li" class="content_li_structure  col  col-xxs-12 col-xs-6  col-md-5 col-lg-4">
+            <?php include '_/components/php/index_content_li_blog.php'; ?>
+          </section> <!-- left_content_two -->
+        </div>
+
+
+        <div class="row  hidden-lg">
+          <section id="resume_content_li" class="content_li_structure  col  col-xxs-12  col-xs-6  col-md-5  col-md-offset-1  col-lg-4  col-lg-offset-0">
+            <?php include '_/components/php/index_content_li_resume.php'; ?>
+          </section> <!-- right_content_two -->
+
+          <section id="contact_content_li" class="content_li_structure  col  col-xxs-12 col-xs-6  col-md-5  col-lg-4">
+            <?php include '_/components/php/index_content_li_contact.php'; ?>
+          </section> <!-- right_content_two -->
+        </div>
+
+
+        <div class="row  hidden-xxs  hidden-xs  hidden-sm  hidden-md">
+          <section id="tech_content_li" class="content_li_structure  col  col-xxs-12  col-xs-6  col-md-5  col-md-offset-1  col-lg-4  col-lg-offset-0">
+            <?php include '_/components/php/index_content_li_tech.php'; ?> 
+          </section> <!-- left_content_one -->
+
+          <section id="novel_content_li" class="content_li_structure  col  col-xxs-12 col-xs-6  col-md-5 col-lg-4">
+            <?php include '_/components/php/index_content_li_novel.php'; ?>                  
+          </section><!-- right_content_one-->
+
+          <section id="family_content_li" class="content_li_structure  col  col-xxs-12  col-xs-6  col-md-5  col-md-offset-1  col-lg-4  col-lg-offset-0">
+            <?php include '_/components/php/index_content_li_family.php'; ?>
+          </section> <!-- left_content_two -->
+        </div>
+
+
+        <div class="row  hidden-xxs  hidden-xs  hidden-sm  hidden-md">
+          <section id="blog_content_li" class="content_li_structure  col  col-xxs-12 col-xs-6  col-md-5 col-lg-4">
+            <?php include '_/components/php/index_content_li_blog.php'; ?>
+          </section> <!-- left_content_two -->
+
+          <section id="resume_content_li" class="content_li_structure  col  col-xxs-12  col-xs-6  col-md-5  col-md-offset-1  col-lg-4  col-lg-offset-0">
+            <?php include '_/components/php/index_content_li_resume.php'; ?>
+          </section> <!-- right_content_two -->
+
+          <section id="contact_content_li" class="content_li_structure  col  col-xxs-12 col-xs-6  col-md-5  col-lg-4">
+            <?php include '_/components/php/index_content_li_contact.php'; ?>
+          </section> <!-- right_content_two -->
+        </div> <!-- row -->    
+
       </section> <!-- content_container -->
       
 

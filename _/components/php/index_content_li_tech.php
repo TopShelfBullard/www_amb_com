@@ -5,5 +5,5 @@
                       </a>               
                     </li>
                     <br>
-                    <img  src="images/tech.png" alt="developing in the grass" width="100%" class="tech_img">
+                    <img  src="images/tech_with_helen1.png" alt="Coding with Helen" width="100%" class="tech_img">
                   </ul>

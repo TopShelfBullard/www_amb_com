@@ -26,15 +26,11 @@
             
                     <section class="panel-footer">
                       <h5>NOTES:</h5>
-                        <p>This is the most efficient way that I have found to solve this problem, thus far. What I like about it is that variables are created
-                          momentarily when they are needed, but they are instantly overwritten so that all one hundred doors, states, and outputs are not a
-                          burden on the RAM. Because of this I am able to up this problem to 1,000, 10,000, and even 100,000 doors and still retain an acceptable
-                          amount of speed.
+                        <p>
+                          At first I wrote a Door class and created 100 instances of it. The above code runs way faster, but with the class, the
+                          program could be more easily modified should the specifications ever change (which they won't, but still...)
                         </p>
                         <p>
-                          What I do not like is that it would have to be rewritten if the specifications changed. Nothing further can be done
-                          with the output, because it is gone a split second after it appears. The doors cannot be worked with again, because their final state
-                          is forgotten. For my purposes with this task, these problems don't bother me, but in another situation, where I may add further
-                          functionality, I would most likely alter this code.
+                          Thoughts and suggestions are welcome. Go to the contact page and hit me up.
                         </p>
                     </section> <!-- panel_footer -->

@@ -18,7 +18,11 @@
 
 <!-- content -->
       <section class="content_container  container  col  col-xxs-12">
-        <h1>My apologies, the family page is still in development.</h1> 
+        <div class="row">
+
+          <p>family</p>
+
+        </div> <!-- row -->
       </section> <!-- content_container -->
 
 <!-- footer -->
