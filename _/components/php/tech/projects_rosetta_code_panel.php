@@ -16,7 +16,7 @@
                         <h5>SOLUTION:</h5>
                       </span>
                       <br>
-                      <?php include '_/components/php/tech_projects_rosetta_code_syntax.php'; ?>
+                      <?php include '_/components/php/tech/projects_rosetta_code_syntax.php'; ?>
                       <br>
                       <span class="syntax_coloring_dark"><h5>ANSWER:</h5></span>
                       <p>

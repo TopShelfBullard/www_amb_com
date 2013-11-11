@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>A. Mitchell Bullard - Family</title>
-    <?php include '_/components/php/common_content_head_tag_contents.php'; ?>
+    <title>A. Mitchell Bullard - Blog</title>
+    <?php include '_/components/php/common_content/head_tag_contents.php'; ?>
   </head>
   <body id="body_family">
     <section  class="main_container  container">
 
 
 <!-- header --> 
-      <?php include '_/components/php/common_content_header.php'; ?>
+      <?php include '_/components/php/common_content/header.php'; ?>
 
 
 <!-- navigation -->
-      <?php include '_/components/php/common_content_navigation.php'; ?> 
+      <?php include '_/components/php/common_content/navigation.php'; ?> 
 
 
 <!-- content -->
@@ -53,12 +53,12 @@
       <footer>
         <hr>
         <div class="row">
-          <?php include '_/components/php/common_content_footer_content.php'; ?>
+          <?php include '_/components/php/common_content/footer_content.php'; ?>
         </div> <!-- row -->
       </footer>   
     
 
     </section> <!-- main_container -->
-    <?php include '_/components/php/common_content_script_tags.php'; ?>
+    <?php include '_/components/php/common_content/script_tags.php'; ?>
   </body>
 </html>

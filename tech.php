@@ -2,18 +2,18 @@
 <html lang="en">
   <head>
     <title>A. Mitchell Bullard - Tech</title>
-    <?php include '_/components/php/common_content_head_tag_contents.php'; ?>
+    <?php include '_/components/php/common_content/head_tag_contents.php'; ?>
   </head>
   <body id="body_tech">
     <section  class="main_container  container">
 
 
 <!-- header --> 
-      <?php include '_/components/php/common_content_header.php'; ?>
+      <?php include '_/components/php/common_content/header.php'; ?>
 
 
 <!-- navigation -->
-      <?php include '_/components/php/common_content_navigation.php'; ?> 
+      <?php include '_/components/php/common_content/navigation.php'; ?> 
 
 
 <!-- content -->
@@ -28,24 +28,24 @@
             </div>
 
             <h1>Code</h1>           
-            <?php include '_/components/php/tech_code_tabs.php'; ?>
+            <?php include '_/components/php/tech/code_tabs.php'; ?>
             
             <section class="tab-content">                                     
               <section id="html_css" class="tab-pane active" >                     
                 <div class="col col-xxs-12">           
-                  <?php include '_/components/php/tech_code_html_css.php'; ?>
+                  <?php include '_/components/php/tech/code_html_css.php'; ?>
                 </div> <!-- col -->           
               </section> <!-- tab_pane --> 
 
               <section id="javascript" class="tab-pane"> 
                 <div class="col col-xxs-12">
-                  <?php include '_/components/php/tech_code_javascript.php'; ?>
+                  <?php include '_/components/php/tech/code_javascript.php'; ?>
                 </div> <!-- col -->         
               </section> <!-- tab_pane --> 
 
               <section id="ruby" class="tab-pane">                     
                 <div class="col col-xxs-12">           
-                  <?php include '_/components/php/tech_code_ruby.php'; ?>
+                  <?php include '_/components/php/tech/code_ruby.php'; ?>
                 </div> <!-- col -->           
               </section> <!-- tab_pane -->                                                                                                                  
             </section> <!-- tab_content -->   
@@ -63,25 +63,25 @@
             </div>
 
             <h1>Projects</h1>
-              <?php include '_/components/php/tech_projects_tabs.php'; ?>
+              <?php include '_/components/php/tech/projects_tabs.php'; ?>
 
             <section class="tab-content">
                                           
               <section id="rosetta_code" class="tab-pane active">                     
                 <div class="col col-xxs-12"> 
-                  <?php include '_/components/php/tech_projects_rosetta_code.php'; ?>
+                  <?php include '_/components/php/tech/projects_rosetta_code.php'; ?>
                 </div> <!-- col -->           
               </section> <!-- tab_pane --> 
 
               <section id="nerdwords" class="tab-pane"> 
                 <div class="col col-xxs-12">
-                  <?php include '_/components/php/tech_projects_nerdwords.php'; ?>
+                  <?php include '_/components/php/tech/projects_nerdwords.php'; ?>
                 </div> <!-- col -->         
               </section> <!-- tab_pane --> 
 
               <section id="helen_rb" class="tab-pane">                     
                 <div class="col col-xxs-12">
-                  <?php include '_/components/php/tech_projects_helen_rb.php'; ?>
+                  <?php include '_/components/php/tech/projects_helen_rb.php'; ?>
                 </div> <!-- col -->           
               </section> <!-- tab_pane -->               
             </section> <!-- tab-content -->
@@ -96,12 +96,12 @@
       <footer>
         <hr>
         <div class="row">
-          <?php include '_/components/php/common_content_footer_content.php'; ?>
+          <?php include '_/components/php/common_content/footer_content.php'; ?>
         </div> <!-- row -->
       </footer>   
     
 
     </section> <!-- main_container -->
-    <?php include '_/components/php/common_content_script_tags.php'; ?>
+    <?php include '_/components/php/common_content/script_tags.php'; ?>
   </body>
 </html>

@@ -2,18 +2,18 @@
 <html lang="en">
   <head>
     <title>A. Mitchell Bullard - Novel</title>
-    <?php include '_/components/php/common_content_head_tag_contents.php'; ?>
+    <?php include '_/components/php/common_content/head_tag_contents.php'; ?>
   </head>
   <body id="body_novel">
     <section  class="main_container  container">
 
 
 <!-- header --> 
-      <?php include '_/components/php/common_content_header.php'; ?>
+      <?php include '_/components/php/common_content/header.php'; ?>
 
 
 <!-- navigation -->
-      <?php include '_/components/php/common_content_navigation.php'; ?> 
+      <?php include '_/components/php/common_content/navigation.php'; ?> 
 
 
 <!-- content -->
@@ -52,11 +52,11 @@
                 </section><!-- column -->                 
 
                 <section id="novel_teaser_column_one"  class="col col-xxs-12  col-xs-6">                 
-                  <?php include '_/components/php/novel_teaser_column_one.php'; ?>
+                  <?php include '_/components/php/novel/teaser_column_one.php'; ?>
                 </section> <!-- novel_teaser_column_one  -->
 
                 <section id="novel_teaser_column_two" class="col col-xxs-12  col-xs-6">
-                  <?php include '_/components/php/novel_teaser_column_two.php'; ?>                   
+                  <?php include '_/components/php/novel/teaser_column_two.php'; ?>                   
                 </section> <!-- novel_teaser_column_two  -->
                 
                 <section id="novel_teaser_outro" class="col col-xxs-12 clearfix">
@@ -109,27 +109,27 @@
             <section class="panel-body">            
               <section id="novel_reviews_column_one" class="col col-xxs-12  col-md-7">                                             
                 <section class="left_novel_review  review_area_item  col col-xxs-12">
-                  <?php include '_/components/php/novel_review_write_your_own.php'; ?>
+                  <?php include '_/components/php/novel/reviews_write_your_own.php'; ?>
                 </section> <!-- left_novel_review -->
 
                 <section class="left_novel_review  review_area_item  col col-xxs-12">
-                  <?php include '_/components/php/novel_review_what_a_fun_read.php'; ?>
+                  <?php include '_/components/php/novel/reviews_what_a_fun_read.php'; ?>
                 </section> <!-- left_novel_review -->           
               </section> <!-- novel_reviews_column_one -->
 
               <section id="novel_reviews_column_two" class="col  col-xxs-12 col-md-5">
                 <section class="right_novel_review  review_area_item  col  col-xxs-12">
-                  <?php include '_/components/php/novel_review_super_fun.php'; ?>
+                  <?php include '_/components/php/novel/reviews_super_fun.php'; ?>
                 </section> <!-- right_novel_review -->
 
                 <section class= "right_novel_review  review_area_item  col col-xxs-12">
-                  <?php include '_/components/php/novel_review_excellent_and_entertaining.php'; ?>
+                  <?php include '_/components/php/novel/reviews_excellent_and_entertaining.php'; ?>
                 </section> <!-- right_novel_review -->
               </section> <!-- novel_reviews_column_two -->
             </section> <!-- panel_body -->
             
             <section class="panel-footer">
-              <?php include '_/components/php/novel_reviews_panel_footer.php'; ?>
+              <?php include '_/components/php/novel/reviews_panel_footer.php'; ?>
             </section> <!-- panel_footer -->
 
           </div> <!-- panel -->
@@ -142,12 +142,12 @@
       <footer>
         <hr>
         <div class="row">
-          <?php include '_/components/php/common_content_footer_content.php'; ?>
+          <?php include '_/components/php/common_content/footer_content.php'; ?>
         </div> <!-- row -->
       </footer>   
     
 
     </section> <!-- main_container -->
-    <?php include '_/components/php/common_content_script_tags.php'; ?>
+    <?php include '_/components/php/common_content/script_tags.php'; ?>
   </body>
 </html>

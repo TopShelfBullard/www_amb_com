@@ -2,7 +2,7 @@
                     <li class="review_link">
                       <a href ="http://www.amazon.com/Mystery-Magical-Journeys-Alexander-ebook/product-reviews/B0083YU4II/ref=sr_1_1_cm_cr_acr_txt?ie=UTF8&showViewpoints=1" target="_blank">
                         <h4>Super Fun</h4>
-                         <?php include '_/components/php/novel_reviews_stars.php'; ?>
+                         <?php include '_/components/php/novel/reviews_stars.php'; ?>
                       </a>
                     </li>
                   </ul>

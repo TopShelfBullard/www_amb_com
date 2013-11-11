@@ -14,5 +14,5 @@
                   <br>
                                    
                   <div class="panel panel-default">
-                    <?php include '_/components/php/tech_projects_rosetta_code_panel.php'; ?>
+                    <?php include '_/components/php/tech/projects_rosetta_code_panel.php'; ?>
                   </div> <!-- panel -->

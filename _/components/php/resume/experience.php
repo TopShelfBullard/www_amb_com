@@ -21,7 +21,7 @@
               </p>
               
               <p>
-                <span class="inner_category">Warner’s Stellian&mdash;www.warnersstellian.com</span>  <br>
+                <span class="inner_category">Warner's Stellian&mdash;www.warnersstellian.com</span>  <br>
                 As a Crew Leader I delivered and installed high-end appliances in wealthy Twin Cities
                 Neighborhoods. Simultaneously functioning as a manager to my crew helper and a customer
                 service rep to a customer while in that customer’s home is partially what molded me into the

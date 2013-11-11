@@ -1,7 +1,7 @@
 <ul class="nav nav-pills  nav-justified"><br>
                     <li class="content_nav_family  content_nav">
-                      <a href="family.php">
-                        <h1>FAMILY</h1>
+                      <a href="screencast.php">
+                        <h1>SCREENCAST</h1>
                       </a>               
                     </li>
                     <br>
