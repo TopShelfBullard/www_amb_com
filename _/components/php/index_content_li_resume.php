@@ -1,6 +1,6 @@
 <ul class="nav nav-pills  nav-justified"><br>
                     <li class="content_nav_resume  content_nav">
-                      <a href="tech.php">
+                      <a href="resume.php">
                         <h1>RESUME</h1>
                       </a>               
                     </li>

@@ -85,9 +85,9 @@
       
 
 <!-- footer -->
-      <footer>
-        <hr>
+      <footer class="col-xxs-12">       
         <div class="row">
+          <hr> 
           <?php include '_/components/php/common_content_footer_content.php'; ?>
         </div> <!-- row -->
       </footer>   

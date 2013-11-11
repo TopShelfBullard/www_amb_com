@@ -9,6 +9,7 @@
 @gray: lighten(#000, 33.5%); // #555
 @gray-light: lighten(#000, 60%); // #999
 @gray-lighter: lighten(#000, 93.5%); // #eee
+@gray-lightest: lightest(#000, 99%);
 
 @syntax_coloring_background: lighten(#000, 70%); 
 @syntax_coloring_dark: #000;
@@ -210,3 +211,43 @@
     .linkedin_on {
       display: none;
     }
+
+    //Styles for the resume page
+ 
+    #resume_background {
+        background-color: #fff;
+      }
+
+    #resume_body {
+      background-color: #fff;
+      margin-top: 60px;
+      border-radius: 15px;
+      a, p {
+        text-align: center;
+      }
+      
+      a {
+        color: #0000ff;
+        font-weight: bold;
+      }
+
+      .resume_headers {
+        text-align: left;
+        padding-bottom: 20px;
+      } 
+
+      .viterbo {
+        padding-top: 20px;
+      }
+
+      .resume_experience {
+        p {
+          text-align: justify;
+        }
+      }
+    
+    
+    .inner_category {
+      font-weight: bold;
+    }
+  }
