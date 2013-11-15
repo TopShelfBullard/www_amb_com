@@ -32,7 +32,7 @@
 
         <div class="row  hidden-lg">
           <section id="family_content_li" class="content_li_structure  col  col-xxs-12  col-xs-6  col-md-5  col-md-offset-1  col-lg-4  col-lg-offset-0">
-            <?php include '_/components/php/index/li_family.php'; ?>
+            <?php include '_/components/php/index/li_screencast.php'; ?>
           </section> <!-- left_content_two -->
 
           <section id="blog_content_li" class="content_li_structure  col  col-xxs-12 col-xs-6  col-md-5 col-lg-4">
