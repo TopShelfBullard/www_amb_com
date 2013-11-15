@@ -28,7 +28,7 @@
             </div>
 
             <h1>Code</h1>           
-            <?php include '_/components/php/tech/code_tabs.php'; ?>
+            <?php include '_/components/php/tech/tabs_code.php'; ?>
             
             <section class="tab-content">                                     
               <section id="html_css" class="tab-pane active" >                     
@@ -63,7 +63,7 @@
             </div>
 
             <h1>Projects</h1>
-              <?php include '_/components/php/tech/projects_tabs.php'; ?>
+              <?php include '_/components/php/tech/tabs_projects.php'; ?>
 
             <section class="tab-content">
                                           
@@ -79,9 +79,9 @@
                 </div> <!-- col -->         
               </section> <!-- tab_pane --> 
 
-              <section id="helen_rb" class="tab-pane">                     
+              <section id="helen_js" class="tab-pane">                     
                 <div class="col col-xxs-12">
-                  <?php include '_/components/php/tech/projects_helen_rb.php'; ?>
+                  <?php include '_/components/php/tech/projects_helen_js.php'; ?>
                 </div> <!-- col -->           
               </section> <!-- tab_pane -->               
             </section> <!-- tab-content -->
