@@ -15,7 +15,8 @@
                 and Twitter Bootstrap 3. I am also training to be the new web master for Chippewa Valley
                 Habitat for Humanity.
               </p>
-              
+ 
+ <!-- unused experience on resume             
               <p>
                 <span class="inner_category">Fastenal&mdash;
                   <a href="http://www.fastenal.com/web/home" target="blank">www.fastenal.com</a>
@@ -43,4 +44,5 @@
                 Neighborhoods. Simultaneously functioning as a manager to my crew helper and a customer
                 service rep to a customer while in that customer's home is partially what molded me into the
                 man that my coworkers enjoy working with today.
-              </p>
+              </p
+-->
