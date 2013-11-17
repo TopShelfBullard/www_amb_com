@@ -5,5 +5,5 @@
                       </a>               
                     </li>
                     <br>
-                  <img  src="images/contact.png" alt="Profile picture" width="100%" class="family_img">
+                  <img  src="images/contact.png" alt="A. Mitchell Bullard rocking double baby-backpacks" width="100%" class="family_img">
                 </ul>

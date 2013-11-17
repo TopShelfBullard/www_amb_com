@@ -24,7 +24,7 @@
 <!-- code tab pane -->          
           <section id="tab_pane_code" class="col col-xxs-12 col-sm-6">           
             <div class="tech_img_right  col  col-xxs-12  col-xs-12  hidden-sm  hidden-md  hidden-lg">
-              <img  src="images/tech_with_helen1.png" alt="A. Mitchell Bullard hacking with his daugther" width="100%" class="tech_img">
+              <img  src="images/tech_with_helen1.png" alt="A. Mitchell Bullard coding with his daugther" width="100%" class="tech_img">
             </div>
 
             <h1>Code</h1>           
@@ -59,7 +59,7 @@
 <!-- projects tab pane -->
           <div id="tab_pane_projects" class="col col-xxs-12 col-sm-6">
             <div class="tech_img_right  col  hidden-xxs  hidden-xs  col-xs-12">
-              <img  src="images/tech_with_helen1.png" alt="A. Mitchell Bullard hacking with his daugther" width="100%" class="tech_img">
+              <img  src="images/tech_with_helen1.png" alt="A. Mitchell Bullard coding with his daugther" width="100%" class="tech_img">
             </div>
 
             <h1>Projects</h1>

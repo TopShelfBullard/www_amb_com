@@ -29,7 +29,7 @@
           </section>
 
           <section class="profile_picture  col hidden-xxs  hidden-xs  col-sm-4">
-            <img  src="images/profile.png" alt="Profile picture" width="100%" class="profile_img">
+            <img  src="images/profile.png" alt="A. Mitchell Bullard profile picture" width="100%" class="profile_img">
           </section>
 
         </div> <!-- row -->

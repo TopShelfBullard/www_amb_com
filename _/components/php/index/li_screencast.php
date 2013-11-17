@@ -5,5 +5,5 @@
                       </a>               
                     </li>
                     <br>
-                  <img  src="images/family.png" alt="Profile picture" width="100%" class="family_img">
+                  <img  src="images/guitar_with_marian_and_julian.png" alt="A. Mitchell Bullard playing guitar on the grass for the kids" width="100%" class="screencast_img">
                 </ul>
