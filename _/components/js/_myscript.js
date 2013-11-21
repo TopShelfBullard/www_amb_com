@@ -3,39 +3,39 @@ $(document).ready(function() {
   var quoteFive = $("#quote5"); 
     
   var facebook = $(".facebook");
-  var facebookOff = $(".facebook_off");
-  var facebookOn = $(".facebook_on"); 
+  var facebookBWIcon = $(".facebook_bw_icon");
+  var facebookColorIcon = $(".facebook_color_icon"); 
 
   var github = $(".github");
-  var githubOff = $(".github_off");
-  var githubOn = $(".github_on");
+  var githubBWIcon = $(".github_bw_icon");
+  var githubColorIcon = $(".github_color_icon");
   
   var googleplus = $(".googleplus");
-  var googleplusOff = $(".googleplus_off");
-  var googleplusOn = $(".googleplus_on"); 
+  var googleplusBWIcon = $(".googleplus_bw_icon");
+  var googleplusColorIcon = $(".googleplus_color_icon"); 
 
   var linkedin = $(".linkedin");
-  var linkedinOff = $(".linkedin_off");
-  var linkedinOn = $(".linkedin_on");
+  var linkedinBWIcon = $(".linkedin_bw_icon");
+  var linkedinColorIcon = $(".linkedin_color_icon");
 
   var mail = $(".mail");
-  var mailOff = $(".mail_off");
-  var mailOn = $(".mail_on");
+  var mailBWIcon = $(".mail_bw_icon");
+  var mailColorIcon = $(".mail_color_icon");
 
   var twitter = $(".twitter");
-  var twitterOff = $(".twitter_off");
-  var twitterOn = $(".twitter_on");
+  var twitterBWIcon = $(".twitter_bw_icon");
+  var twitterColorIcon = $(".twitter_color_icon");
   
   quoteFive.css("display", "none");
 
   getNewQuoteForHeader();  
 
-  hoverEffect(facebook, facebookOff, facebookOn);
-  hoverEffect(github, githubOff, githubOn);
-  hoverEffect(googleplus, googleplusOff, googleplusOn);  
-  hoverEffect(linkedin, linkedinOff, linkedinOn);
-  hoverEffect(mail, mailOff, mailOn);
-  hoverEffect(twitter, twitterOff, twitterOn);
+  hoverEffect(facebook, facebookBWIcon, facebookColorIcon);
+  hoverEffect(github, githubBWIcon, githubColorIcon);
+  hoverEffect(googleplus, googleplusBWIcon, googleplusColorIcon);  
+  hoverEffect(linkedin, linkedinBWIcon, linkedinColorIcon);
+  hoverEffect(mail, mailBWIcon, mailColorIcon);
+  hoverEffect(twitter, twitterBWIcon, twitterColorIcon);
 
   starAnimation();
 });
