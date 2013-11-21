@@ -2,8 +2,6 @@
 
 // Grays
 // -------------------------
-
-
 @gray-darker: lighten(#000, 13.5%); // #222
 @gray-dark: lighten(#000, 20%); // #333
 @gray: lighten(#000, 33.5%); // #555
@@ -17,9 +15,9 @@
 @syntax_coloring_medium: lighten(#000, 45%); 
 @syntax_coloring_light: lighten(#000, 85%);
 
+
 // Brand colors
 // -------------------------
-
 @brand-primary: #428bca;
 @brand-success: #5cb85c;
 @brand-warning: #f0ad4e;
@@ -28,42 +26,35 @@
 
 // Media queries breakpoints
 // --------------------------------------------------
-
 // Extra small screen / phone
 // Note: Deprecated @screen-xs and @screen-phone as of v3.0.1
 @screen-xs: 480px;
 @screen-xs-min: @screen-xs;
 @screen-phone: @screen-xs-min;
-
 // Small screen / tablet
 // Note: Deprecated @screen-sm and @screen-tablet as of v3.0.1
 @screen-sm: 768px;
 @screen-sm-min: @screen-sm;
 @screen-tablet: @screen-sm-min;
-
 // Medium screen / desktop
 // Note: Deprecated @screen-md and @screen-desktop as of v3.0.1
 @screen-md: 992px;
 @screen-md-min: @screen-md;
 @screen-desktop: @screen-md-min;
-
 // Large screen / wide desktop
 // Note: Deprecated @screen-lg and @screen-lg-desktop as of v3.0.1
 @screen-lg: 1200px;
 @screen-lg-min: @screen-lg;
 @screen-lg-desktop: @screen-lg-min;
-
 // Extra large screen / extra wide desktop
 @screen-xl: 1500px;
 @screen-xl-min: @screen-xl;
 @screen-xl-desktop: @screen-xl-min;
-
 // So media queries don't overlap when required, provide a maximum
 @screen-xs-max: (@screen-sm-min - 1);
 @screen-sm-max: (@screen-md-min - 1);
 @screen-md-max: (@screen-lg-min - 1);
 @screen-lg-max: (@screen-xl-min - 1);
-
 
 // My variables
   @black: #000;
@@ -71,183 +62,156 @@
   @white: #fff;
 
 
-// global styles
-  body {
-    background-color: @black;
-    min-width: 290px;
-    text-align: center;
 
+body {
+  background-color: @black;
+  min-width: 290px;
+  text-align: center;
+  a {
+    color: @black;
+    font-weight: bold;
+  }
+  p {
+    text-align: justify;
+  }
+  .main_container {
+    background-color: @white;
+  }
+  .page_heading {
+    text-align: center;
+  }
+  .quotes {
+    display: none;
+  }
+  #header_quotes {
+    padding-top: @measure * 2;
+    padding-bottom: @measure * 2;
+  }
+  .content_container {
+    padding-top: @measure;
+    padding-bottom: @measure;
+  } 
+  footer {
+    //background-color: @gray-lighter;
+    padding-top: @measure * 2;
+    padding-bottom: @measure * 2;
+  }
+}
+
+
+
+#body_tech {
+  .tab-pane {
+    height: 400px;
+    overflow: auto;
+    border-left: 2px solid @gray-lighter;
+    border-right: 2px solid @gray-lighter;
+    border-bottom: 2px solid @gray-lighter;
+  }
+  .tech_img_left {
+    padding-top: @measure;
+    padding-bottom: @measure;
+  }
+  .tech_img_right {
+    padding-top: @measure;
+    padding-bottom: @measure;
+  }
+  .panel {
+    text-align: left;
+    border-radius: 15px;
+  }
+  .panel_syntax_default {
+    background-color: @syntax_coloring_background;
+    color: @white;
+    border-radius: 15px;  
+  }
+  .syntax_coloring_light {
+    color: @syntax_coloring_light;
+  }
+  .syntax_coloring_medium {
+    color: @syntax_coloring_medium;
+  } 
+  .syntax_coloring_medium_dark {
+    color: @syntax_coloring_medium_dark;
+  }
+  .syntax_coloring_dark {
+    color: @syntax_coloring_dark;  
+  }
+}
+
+
+
+#body_novel {
+  #novel_teaser_body {
+    margin-top: @measure * 2; 
+  }
+  #novel_reviews_panel {
+    margin-top: @measure * 2; 
+  }
+  .star_hover {
+    color: @brand-warning;
+  }
+  .link_hover {
+    color: @white;
+  }
+}
+
+
+
+#body_contact {
+  .github_color_icon {
+    display: none;
+  }
+  .twitter_color_icon {
+    display: none;
+  }
+  .mail_color_icon {
+    display: none;
+  }
+  .facebook_color_icon {
+    display: none;
+  }
+  .googleplus_color_icon {
+    display: none;
+  }
+  .linkedin_color_icon {
+    display: none;
+  }
+}
+
+
+
+#body_resume { 
+  #resume_background {
+    background-color: #fff;
+  }
+  #resume_body {
+    background-color: #fff;
+    margin-top: 60px;
+    border-radius: 15px;
+    border: 0.5px solid #000;
+    padding: 40px;
+    a, p {
+      text-align: center;
+    }    
     a {
-      color: @black;
+      color: #0000ff;
       font-weight: bold;
     }
-
-    p {
-      text-align: justify;
+    .resume_headers {
+      text-align: left;
+      padding-bottom: 20px;
     }
-
-  }
-
-    .main_container {
-      background-color: @white;
+    .viterbo {
+      padding-top: 20px;
     }
-
-        .page_heading {
-          text-align: center;
-        }
-
-        .quotes {
-          display: none;
-        }
-
-        #header_quotes {
-          padding-top: @measure * 2;
-          padding-bottom: @measure * 2;
-        }
-
-
-      .content_container {
-        padding-top: @measure;
-        padding-bottom: @measure;
-      }
-
-    
-      footer {
-        //background-color: @gray-lighter;
-        padding-top: @measure * 2;
-        padding-bottom: @measure * 2;
-      }
-
-
-    #body_tech {
-
-      .tab-pane {
-        height: 400px;
-        overflow: auto;
-        border-left: 2px solid @gray-lighter;
-        border-right: 2px solid @gray-lighter;
-        border-bottom: 2px solid @gray-lighter;
-      }
-
-      .tech_img_left {
-        padding-top: @measure;
-        padding-bottom: @measure;
-      }
-
-      .tech_img_right {
-        padding-top: @measure;
-        padding-bottom: @measure;
-      }
-
-      .panel {
-        text-align: left;
-        border-radius: 15px;
-      }
-
-      .panel_syntax_default {
-        background-color: @syntax_coloring_background;
-        color: @white;
-        border-radius: 15px;  
-      }
-
-      .syntax_coloring_light {
-        color: @syntax_coloring_light;
-      }
-
-      .syntax_coloring_medium {
-        color: @syntax_coloring_medium;
-      } 
-
-      .syntax_coloring_medium_dark {
-        color: @syntax_coloring_medium_dark;
-      }
-
-      .syntax_coloring_dark {
-        color: @syntax_coloring_dark;  
+    .resume_experience {
+      p {
+        text-align: justify;
       }
     }
-
-
-
-    #novel_teaser_body {
-      margin-top: @measure * 2; 
-    }
-
-    #novel_reviews_panel {
-      margin-top: @measure * 2; 
-    }
-
-    .star_hover {
-      color: @brand-warning;
-    }
-
-    .link_hover {
-      color: @white;
-    }
-
-
-
-    .github_color_icon {
-      display: none;
-    }
-
-    .twitter_color_icon {
-      display: none;
-    }
-
-    .mail_color_icon {
-      display: none;
-    }
-
-    .facebook_color_icon {
-      display: none;
-    }
-
-    .googleplus_color_icon {
-      display: none;
-    }
-
-    .linkedin_color_icon {
-      display: none;
-    }
-
-
- 
-    #resume_background {
-        background-color: #fff;
-      }
-
-    #resume_body {
-      background-color: #fff;
-      margin-top: 60px;
-      border-radius: 15px;
-      border: 0.5px solid #000;
-      padding: 40px;
-      a, p {
-        text-align: center;
-      }
-      
-      a {
-        color: #0000ff;
-        font-weight: bold;
-      }
-
-      .resume_headers {
-        text-align: left;
-        padding-bottom: 20px;
-      } 
-
-      .viterbo {
-        padding-top: 20px;
-      }
-
-      .resume_experience {
-        p {
-          text-align: justify;
-        }
-      }
-       
     .inner_category {
       font-weight: bold;
     }
   }
+}
