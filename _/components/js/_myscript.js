@@ -1,7 +1,12 @@
+$(document).ready(function() {
 
-$(document).ready(function() { 
   var quoteFive = $("#quote5"); 
+
+  quoteFive.css("display", "none");
+  getNewQuoteForHeader();    
+
     
+
   var facebook = $(".facebook");
   var facebookBWIcon = $(".facebook_bw_icon");
   var facebookColorIcon = $(".facebook_color_icon"); 
@@ -26,10 +31,6 @@ $(document).ready(function() {
   var twitterBWIcon = $(".twitter_bw_icon");
   var twitterColorIcon = $(".twitter_color_icon");
   
-  quoteFive.css("display", "none");
-
-  getNewQuoteForHeader();  
-
   hoverEffect(facebook, facebookBWIcon, facebookColorIcon);
   hoverEffect(github, githubBWIcon, githubColorIcon);
   hoverEffect(googleplus, googleplusBWIcon, googleplusColorIcon);  
@@ -37,8 +38,13 @@ $(document).ready(function() {
   hoverEffect(mail, mailBWIcon, mailColorIcon);
   hoverEffect(twitter, twitterBWIcon, twitterColorIcon);
 
+
+
   starAnimation();
+
 });
+
+
 
   function getNewQuoteForHeader() {
     var number;
@@ -132,6 +138,8 @@ $(document).ready(function() {
     }); 
   } 
 
+
+
 function hoverEffect(id, iconBW, iconColor) {
   id.hover(
     function() {
@@ -144,14 +152,16 @@ function hoverEffect(id, iconBW, iconColor) {
     });
 }
 
+
+
 function starAnimation() {
-$(".glyphicon-star").hover(
-  function() {
-    $(this).addClass("star_hover");
-    $(this).prevUntil(".stars").addClass("star_hover");
-    },
-  function() {
-    $(this).removeClass("star_hover");
-    $(this).prevUntil(".stars").removeClass("star_hover");
-  });
+  $(".glyphicon-star").hover(
+    function() {
+      $(this).addClass("star_hover");
+      $(this).prevUntil(".stars").addClass("star_hover");
+      },
+    function() {
+      $(this).removeClass("star_hover");
+      $(this).prevUntil(".stars").removeClass("star_hover");
+    });
 }
