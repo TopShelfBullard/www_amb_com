@@ -19,16 +19,17 @@
 <!-- content -->
       <section class="content_container  container  col  col-xxs-12">
         <div class="row">
-
-          <p>family</p>
-
+          <section class="content_container  container  col  col-xxs-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+            <h2>The first in a series of programming screencasts for children to be released early January.</h2>
+          </section>
         </div> <!-- row -->
       </section> <!-- content_container -->
 
 <!-- footer -->
-      <footer>
-        <hr>
+
+      <footer class="col col-sm-12">     
         <div class="row">
+          <hr>
           <?php include '_/components/php/common_content/footer_content.php'; ?>
         </div> <!-- row -->
       </footer>   
