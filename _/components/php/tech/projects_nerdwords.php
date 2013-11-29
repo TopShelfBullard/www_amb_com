@@ -13,6 +13,6 @@
                     Initially I set Nerdwords up to query a database, but while at
                     <a href="http://www.thatconference.com/" target="blank">That Conference</a>
                     over the summer, a professional said that he would use a search api. I will most likely heed that advice, but I also plan
-                    to look into a binary tree, because binary trees look wicked awesome. I am always interested in learning how to create
+                    to look into a binary search tree, because binary search trees look wicked awesome. I am always interested in learning how to create
                     awesomeness with my brain and my text editor.
                   </p>
