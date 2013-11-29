@@ -1,7 +1,6 @@
-<a href="http://bullardamitchell.wordpress.com/" target="_blank">
-             <h4>Servant of Truth</h4>
-            </a> 
-            <br>
+           <h4 class="curly_brace">Servant of Truth</h4>
+             <h4 class="curly_brace">(*coming soon)</h4>
+
             <p>
               Anyone enjoy a good debate?
             </p>

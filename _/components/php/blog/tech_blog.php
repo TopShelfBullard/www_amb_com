@@ -1,7 +1,8 @@
 <a href="http://bullardamitchell.wordpress.com/" target="_blank">
-              <h4>puts "blog"</h4>
+              <h4 class="curly_brace">public static void blog</h4>
             </a>
-            <br> 
+            <h4 class="curly_brace">{</h4>
+
             <p>
               All things tech are fair game in this geeky student/professional blog. I'll muse upon my own
               education (formal as well as the hard-knock school of 'Just Jump In and Figure It Out Yourself'),
@@ -14,3 +15,4 @@
             </p> 
 
             <p>It should be awesome... and code heavy.</p>
+            <h4 class="curly_brace">}</h4>
