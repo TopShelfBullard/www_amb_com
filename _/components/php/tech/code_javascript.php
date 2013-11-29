@@ -1,11 +1,14 @@
 <h3>JavaScript</h3>
                   <p>
-                    Ahh, JavaScript, the language that insists an array of one, two, three, and four is not equal to an array of one, two, three
-                    and four... although ten quadrillion is, in fact, equal to ten quadrillion and one. Isn't it amazing that in merely ten days,
-                    Brendan Eich of Netscape won the race against Microsoft to develop a language with the power to rob a computer of its
-                    ability to understand equality? I hear the kids are using JavaScript all over the place these days. The statisticians are saying
-                    that there is a new JavaScript library released like every 7.3 seconds and I think NASA just announced a plan rewrite all of
-                    their software for the space shuttles in jQuery.
+                    Ahh, JavaScript, the language that insists  ten quadrillion is, in fact, equal to ten quadrillion and one. Isn't it amazing that
+                    in merely ten days, Brendan Eich of Netscape won the race against Microsoft to develop a language with the power to rob a
+                    computer of its ability to understand numerical equality? To be fair, Microsoft did go on to develop a great many ways to rob a
+                    computer of its ability to understand a multitude of things; they just lost this particular race.
+                  </p>
+                  <p>
+                    I hear the kids are using JavaScript all over the place these days. The statisticians are saying that there is a new JavaScript
+                    library released like every 7.3 seconds and I think NASA just announced a plan rewrite all of their software for the space
+                    shuttles in jQuery.
                   </p>
                   <p>
                     I enjoy making fun of JavaScript, but I must admit that it was a programming fundamentals course with a spectacular professor
