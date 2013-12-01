@@ -1,5 +1,5 @@
 <a href="http://bullardamitchell.wordpress.com/" target="_blank">
-              <h4 class="curly_brace">public static void blog</h4>
+              <h4 class="curly_brace">public class Blog</h4>
             </a>
             <h4 class="curly_brace">{</h4>
 
