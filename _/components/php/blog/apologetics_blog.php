@@ -6,7 +6,7 @@
             </p>
             <p>
               Good, 'cause that's what this blog is all about. If you are a Catholic who wants to see a fellow
-              member of the Body of Christ defend the faith, an anti-catholic who wants to debate a
+              member of the Body of Christ defend the faith, an anti-catholic who wants to debate
               one of the Catholic faithful in a public forum, or you just like seeing a good conflict, this
               may just be the blog for you.
             </p>
