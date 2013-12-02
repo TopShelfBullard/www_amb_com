@@ -48,7 +48,13 @@
                   <?php include '_/components/php/tech/code_ruby.php'; ?>
                 </div> <!-- col -->           
               </section> <!-- tab_pane -->                                                                                                                  
-            </section> <!-- tab_content -->   
+
+              <section id="java" class="tab-pane">                     
+                <div class="col col-xxs-12">           
+                  <?php include '_/components/php/tech/code_java.php'; ?>
+                </div> <!-- col -->           
+              </section> <!-- tab_pane -->                                                                                                                  
+            </section> <!-- tab_content -->      
           
             <div class="tech_img_left  col  col-xxs-12">
               <img  src="images/tech.png" alt="A. Mitchell Bullard hacking in the grass" width="100%" class="tech_img">
