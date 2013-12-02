@@ -1,4 +1,4 @@
-resume.php<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>A. Mitchell Bullard - Resume</title>
