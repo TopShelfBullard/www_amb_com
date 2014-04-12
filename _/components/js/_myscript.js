@@ -1,87 +1,76 @@
 $(document).ready(function() {
-
-  var quoteFive = $("#quote5"); 
-
-  quoteFive.css("display", "none");
-  getNewQuoteForHeader();    
-
+    getNewQuoteForHeader();
     
+    var facebook = $("#facebook");
+    var facebookBW = $(".facebook_bw");
+    var facebookColor = $(".facebook_color");
 
-  var facebook = $(".facebook");
-  var facebookBWIcon = $(".facebook_bw_icon");
-  var facebookColorIcon = $(".facebook_color_icon"); 
+    var github = $("#github");
+    var githubBW = $(".github_bw");
+    var githubColor = $(".github_color");
 
-  var github = $(".github");
-  var githubBWIcon = $(".github_bw_icon");
-  var githubColorIcon = $(".github_color_icon");
-  
-  var googleplus = $(".googleplus");
-  var googleplusBWIcon = $(".googleplus_bw_icon");
-  var googleplusColorIcon = $(".googleplus_color_icon"); 
+    var googleplus = $("#googleplus");
+    var googleplusBW = $(".googleplus_bw");
+    var googleplusColor = $(".googleplus_color");
 
-  var linkedin = $(".linkedin");
-  var linkedinBWIcon = $(".linkedin_bw_icon");
-  var linkedinColorIcon = $(".linkedin_color_icon");
+    var linkedin = $("#linkedin");
+    var linkedinBW = $(".linkedin_bw");
+    var linkedinColor = $(".linkedin_color");
 
-  var mail = $(".mail");
-  var mailBWIcon = $(".mail_bw_icon");
-  var mailColorIcon = $(".mail_color_icon");
+    var mail = $("#mail");
+    var mailBW = $(".mail_bw");
+    var mailColor = $(".mail_color");
 
-  var twitter = $(".twitter");
-  var twitterBWIcon = $(".twitter_bw_icon");
-  var twitterColorIcon = $(".twitter_color_icon");
-  
-  hoverEffect(facebook, facebookBWIcon, facebookColorIcon);
-  hoverEffect(github, githubBWIcon, githubColorIcon);
-  hoverEffect(googleplus, googleplusBWIcon, googleplusColorIcon);  
-  hoverEffect(linkedin, linkedinBWIcon, linkedinColorIcon);
-  hoverEffect(mail, mailBWIcon, mailColorIcon);
-  hoverEffect(twitter, twitterBWIcon, twitterColorIcon);
+    var twitter = $("#twitter");
+    var twitterBW = $(".twitter_bw");
+    var twitterColor = $(".twitter_color");
 
-
-
-  starAnimation();
-
+    hoverEffect(facebook, facebookBW, facebookColor);
+    hoverEffect(github, githubBW, githubColor);
+    hoverEffect(googleplus, googleplusBW, googleplusColor);
+    hoverEffect(linkedin, linkedinBW, linkedinColor);
+    hoverEffect(mail, mailBW, mailColor);
+    hoverEffect(twitter, twitterBW, twitterColor);
+    starAnimation();
 });
 
-
-
-  function getNewQuoteForHeader() {
+function getNewQuoteForHeader() {
     var number;
     var quote;
+    var quoteFive = $("#quote5");
+    var quoteString;
 
-    number = Math.floor(Math.random() * 24 + 1);     
-    quote = $("#quote" + number);
-    
+    quoteFive.css("display", "none");
+
+    number = Math.floor(Math.random() * 24 + 1);
+    quoteString = "#quote" + number;
+    quote = $(quoteString);
+
     quote.fadeIn(1000).delay(20000).fadeOut(1000, function() {
-      getNewQuoteForHeader();
-    });
-  } 
-
-
-
-function hoverEffect(id, iconBW, iconColor) {
-  id.hover(
-    function() {
-      iconBW.css("display", "none");
-      iconColor.css("display", "inline");
-    },
-    function() {
-      iconColor.css("display", "none");
-      iconBW.css("display", "inline");
+        getNewQuoteForHeader();
     });
 }
 
-
+function hoverEffect(id, bw, color) {
+    id.hover(
+        function() {
+            bw.css("display", "none");
+            color.css("display", "inline");
+        },
+        function() {
+            color.css("display", "none");
+            bw.css("display", "inline");
+        });
+}
 
 function starAnimation() {
-  $(".glyphicon-star").hover(
-    function() {
-      $(this).addClass("star_hover");
-      $(this).prevUntil(".stars").addClass("star_hover");
-      },
-    function() {
-      $(this).removeClass("star_hover");
-      $(this).prevUntil(".stars").removeClass("star_hover");
-    });
+    $(".glyphicon-star").hover(
+        function() {
+            $(this).addClass("star_hover");
+            $(this).prevUntil(".stars").addClass("star_hover");
+        },
+        function() {
+            $(this).removeClass("star_hover");
+            $(this).prevUntil(".stars").removeClass("star_hover");
+        });
 }

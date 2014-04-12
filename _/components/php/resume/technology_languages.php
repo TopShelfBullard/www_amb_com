@@ -1,5 +1,5 @@
-              <p>
-                <span class="inner_category">Languages / Frameworks</span>  <br>
-                HTML5, CSS3 (including LESS and SASS), JavaScript, jQuery, Ruby, Ruby on Rails, Java, 
-                Twitter Bootstrap 3
-              </p>
+<p>
+    <span class="inner_category">Languages / Frameworks</span>
+    <br>
+    Java, Junit, XSLT, Xpath, Ruby (some Rails), PHP, JavaScript, HTML5, CSS3, LESS, SASS, Bootstrap 3
+</p>

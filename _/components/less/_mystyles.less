@@ -25,164 +25,149 @@
 @brand-info: #5bc0de;
 
 // My variables
-  @black: #000;
-  @measure: 15px;
-  @white: #fff;
+@black: #000;
+@measure: 15px;
+@white: #fff;
 
 
 
 body {
-  background-color: @black;
-  text-align: center;
-  a {
-    color: @black;
-    font-weight: bold;
-  }
-  p {
-    text-align: justify;
-  }
-  .main_container {
-    background-color: @white;
-    min-width: 400px;
-  }
-  .page_heading {
+    background-color: @black;
     text-align: center;
-  }
-  .quotes {
-    display: none;
-  }
-  #header_quotes {
-    padding-top: @measure * 2;
-    padding-bottom: @measure * 2;
-  }
-  .content_container {
-    padding-top: @measure;
-    padding-bottom: @measure;
-    min-width: 400px;
-  } 
-  footer {
+    a {
+        color: @black;
+        font-weight: bold;
+    }
+    p {
+        text-align: justify;
+    }
+    .main_container {
+        background-color: @white;
+        min-width: 400px;
+    }
+    .page_heading {
+        text-align: center;
+    }
+    .quotes {
+        display: none;
+    }
+    #header_quotes {
+        padding-top: @measure * 2;
+        padding-bottom: @measure * 2;
+    }
+    .content_container {
+        padding-top: @measure;
+        padding-bottom: @measure;
+        min-width: 400px;
+    } 
+    footer {
     //background-color: @gray-lighter;
-    padding-top: @measure * 2;
-    padding-bottom: @measure * 2;
-  }  
-  .curly_brace {
-    text-align: left;
-  }
+        padding-top: @measure * 2;
+        padding-bottom: @measure * 2;
+    }  
+    .curly_brace {
+        text-align: left;
+    }
 }
 
 
 
 #body_tech {
-  .tab-pane {
-    height: 400px;
-    overflow: auto;
-    border-left: 2px solid @gray-lighter;
-    border-right: 2px solid @gray-lighter;
-    border-bottom: 2px solid @gray-lighter;
-  }
-  .tech_img_left {
-    padding-top: @measure;
-    padding-bottom: @measure;
-  }
-  .tech_img_right {
-    padding-top: @measure;
-    padding-bottom: @measure;
-  }
-  .panel {
-    text-align: left;
-    border-radius: 15px;
-  }
-  .panel_syntax_default {
-    background-color: @syntax_coloring_background;
-    color: @white;
-    border-radius: 15px;  
-  }
-  .syntax_coloring_light {
-    color: @syntax_coloring_light;
-  }
-  .syntax_coloring_medium {
-    color: @syntax_coloring_medium;
-  } 
-  .syntax_coloring_medium_dark {
-    color: @syntax_coloring_medium_dark;
-  }
-  .syntax_coloring_dark {
-    color: @syntax_coloring_dark;  
-  }
+    .tab-pane {
+        height: 400px;
+        overflow: auto;
+        border-left: 2px solid @gray-lighter;
+        border-right: 2px solid @gray-lighter;
+        border-bottom: 2px solid @gray-lighter;
+    }
+    .tech_img_left {
+        padding-top: @measure;
+        padding-bottom: @measure;
+    }
+    .tech_img_right {
+        padding-top: @measure;
+        padding-bottom: @measure;
+    }
+    .panel {
+        text-align: left;
+        border-radius: 15px;
+    }
+    .panel_syntax_default {
+        background-color: @syntax_coloring_background;
+        color: @white;
+        border-radius: 15px;  
+    }
+    .syntax_coloring_light {
+        color: @syntax_coloring_light;
+    }
+    .syntax_coloring_medium {
+        color: @syntax_coloring_medium;
+    } 
+    .syntax_coloring_medium_dark {
+        color: @syntax_coloring_medium_dark;
+    }
+    .syntax_coloring_dark {
+        color: @syntax_coloring_dark;  
+    }
 }
 
 
 
 #body_novel {
-  #novel_teaser_body {
-    margin-top: @measure * 2; 
-  }
-  #novel_reviews_panel {
-    margin-top: @measure * 2; 
-  }
-  .star_hover {
-    color: @brand-warning;
-  }
-  .link_hover {
-    color: @white;
-  }
+    #novel_teaser_body {
+        margin-top: @measure * 2; 
+    }
+    #novel_reviews_panel {
+        margin-top: @measure * 2; 
+    }
+    .star_hover {
+        color: @brand-warning;
+    }
+    .link_hover {
+        color: @white;
+    }
 }
 
 
 
 #body_contact {
-  .github_color_icon {
-    display: none;
-  }
-  .twitter_color_icon {
-    display: none;
-  }
-  .mail_color_icon {
-    display: none;
-  }
-  .facebook_color_icon {
-    display: none;
-  }
-  .googleplus_color_icon {
-    display: none;
-  }
-  .linkedin_color_icon {
-    display: none;
-  }
+    .facebook_color, .github_color, .googleplus_color, .linkedin_color, .mail_color, .twitter_color {
+        display: none;
+    }
 }
 
 
 #body_resume { 
-  #resume_background {
-    background-color: #fff;
-  }
-  #resume_body {
-    background-color: #fff;
-    margin-top: 60px;
-    border-radius: 15px;
-    border: 0.5px solid #000;
-    padding: 40px;
-    a, p {
-      text-align: center;
+    #resume_background {
+        background-color: #fff;
     }    
-    a {
-      color: #0000ff;
-      font-weight: bold;
+    #resume_body {
+        background-color: #fff;
+        margin-top: 60px;
+        border-radius: 15px;
+        border: 0.5px solid #000;
+        padding: 40px;
+        a, p {
+            text-align: center;
+        }    
+        a {
+            color: #0000ff;
+            font-weight: bold;
+        }
+        .resume_headers {
+            text-align: left;
+            padding-bottom: 20px;
+        }
+        .viterbo {
+            padding-top: 20px;
+        }
+        .resume_experience {
+            p {
+                text-align: justify;
+            }
+        }
+        .inner_category {
+            font-weight: bold;
+        }
     }
-    .resume_headers {
-      text-align: left;
-      padding-bottom: 20px;
-    }
-    .viterbo {
-      padding-top: 20px;
-    }
-    .resume_experience {
-      p {
-        text-align: justify;
-      }
-    }
-    .inner_category {
-      font-weight: bold;
-    }
-  }
 }
