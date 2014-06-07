@@ -10,21 +10,23 @@
             <?php include '_/components/php/common_content/header.php'; ?>
             <!-- navigation -->
             <?php include '_/components/php/common_content/navigation.php'; ?>
-
             <!-- content -->
-            <section class="content_container  container  col col-xxs-12">
-                <section id="resume_background" class="content_container  container  col  col-xxs-12">
-                    <div class="row">
-                <section id="resume_body"  class="col col-xxs-12 col-md-10 col-md-offset-1  col-lg-8 col-lg-offset-2">
-                <?php include '_/components/php/resume/body.php'; ?>
-                </section>
-                    </div> <!-- row -->
-                </section>
-            </section> <!-- content_container -->
+            <div class="row">
 
+                <section id="tech_content_container" class="content_container  container  col  col-xxs-12">
+                    <div class="row">
+
+                        <section id="resume_body"  class="col col-xxs-12 col-xs-12 col-md-10 col-md-offset-1  col-lg-8 col-lg-offset-2">
+                            <?php include '_/components/php/resume/body.php'; ?>
+                        </section>
+
+                    </div>
+                </section> <!-- content_container -->
+
+            </div>
+            
             <!-- footer -->
-            <footer>
-                <hr>
+            <footer>  
                 <div class="row">
                     <?php include '_/components/php/common_content/footer_content.php'; ?>
                 </div> <!-- row -->

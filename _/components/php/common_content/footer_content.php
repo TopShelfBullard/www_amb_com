@@ -1,6 +1,5 @@
-<div class="col col-xxs-12">
-    <blockquote>
-        Designed, developed, and deployed by A. Mitchell Bullard.
-        <br>
-    </blockquote>
-</div>
+
+                    <hr>
+                    <blockquote class="col col-xxs-12">
+                        Designed, developed, and deployed by A. Mitchell Bullard.
+                    </blockquote>

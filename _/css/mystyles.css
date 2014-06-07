@@ -9,6 +9,17 @@ body a {
 body p {
   text-align: justify;
 }
+body pre {
+  text-align: left;
+}
+body footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+body #header_quotes {
+  padding-top: 30px;
+}
 body .main_container {
   background-color: #ffffff;
   min-width: 400px;
@@ -18,22 +29,63 @@ body .page_heading {
 }
 body .quotes {
   display: none;
-}
-body #header_quotes {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  margin: auto;
 }
 body .content_container {
-  padding-top: 15px;
   padding-bottom: 15px;
   min-width: 400px;
 }
-body footer {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
 body .curly_brace {
   text-align: left;
+}
+body .github_color,
+body .linkedin_color,
+body .mail_color,
+body .twitter_color,
+body .obj-c_color,
+body .swift_color,
+body .ruby_color {
+  display: none;
+}
+body .book {
+  padding: 20px;
+}
+body .return {
+  font-weight: bold;
+}
+body .icon {
+  text-align: center;
+}
+body .top_icon {
+  text-align: center;
+}
+body .left {
+  text-align: left;
+}
+body .justify {
+  text-align: justify;
+}
+#body_home .content_container {
+  padding-top: 15px;
+  padding-bottom: 60px;
+}
+#body_home .home_image {
+  padding-top: 30px;
+}
+#body_home .home_images_bottom {
+  margin-top: 30px;
+}
+#body_tech ol {
+  text-align: justify;
+}
+#body_tech ol li {
+  font-weight: bold;
+}
+#body_tech p {
+  font-weight: normal;
+}
+#body_tech .book_info {
+  text-align: center;
 }
 #body_tech .tab-pane {
   height: 400px;
@@ -59,17 +111,10 @@ body .curly_brace {
   color: #ffffff;
   border-radius: 15px;
 }
-#body_tech .syntax_coloring_light {
-  color: #d9d9d9;
-}
-#body_tech .syntax_coloring_medium {
-  color: #737373;
-}
-#body_tech .syntax_coloring_medium_dark {
-  color: #333333;
-}
-#body_tech .syntax_coloring_dark {
-  color: #000000;
+#body_tech .well {
+  text-align: justify;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 #body_novel #novel_teaser_body {
   margin-top: 30px;
@@ -83,41 +128,30 @@ body .curly_brace {
 #body_novel .link_hover {
   color: #ffffff;
 }
-#body_contact .facebook_color,
-#body_contact .github_color,
-#body_contact .googleplus_color,
-#body_contact .linkedin_color,
-#body_contact .mail_color,
-#body_contact .twitter_color {
-  display: none;
-}
 #body_resume #resume_background {
   background-color: #fff;
 }
 #body_resume #resume_body {
   background-color: #fff;
-  margin-top: 60px;
   border-radius: 15px;
   border: 0.5px solid #000;
-  padding: 40px;
+  padding: 30px;
 }
 #body_resume #resume_body a,
-#body_resume #resume_body p {
-  text-align: center;
+#body_resume #resume_body p,
+#body_resume #resume_body ul,
+#body_resume #resume_body h3,
+#body_resume #resume_body h4 {
+  text-align: left;
 }
 #body_resume #resume_body a {
   color: #0000ff;
-  font-weight: bold;
 }
 #body_resume #resume_body .resume_headers {
   text-align: left;
-  padding-bottom: 20px;
-}
-#body_resume #resume_body .viterbo {
-  padding-top: 20px;
 }
 #body_resume #resume_body .resume_experience p {
-  text-align: justify;
+  text-align: left;
 }
 #body_resume #resume_body .inner_category {
   font-weight: bold;

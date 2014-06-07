@@ -3,5 +3,5 @@
         <a href="resume.php"><h1>RESUME</h1></a>
     </li>
     <br>
-    <img  src="images/tech.png" alt="A. Mitchell bullard hacking in the grass" width="100%" class="resume_img">
+    <img  src="images/profile.png" alt="A. Mitchell Bullard profile picture" width="100%" class="<?=$img?> blog_img">
 </ul>

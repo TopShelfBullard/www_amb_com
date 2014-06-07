@@ -3,5 +3,5 @@
         <a href="tech.php"><h1>TECH</h1></a>
     </li>
     <br>
-    <img  src="images/tech_with_helen1.png" alt="A. Mitchell Bullard coding with his daughter" width="100%" class="tech_img">
+    <img  src="images/tech_with_helen1.png" alt="A. Mitchell Bullard coding with his daughter" width="100%">
 </ul>

@@ -1,78 +1,162 @@
-//Variables from Bootstrap
+
+// --------------------------
+//Variables from bootstrap               |
+// --------------------------
 
 // Grays
-// -------------------------
 @gray-darker: lighten(#000, 13.5%); // #222
 @gray-dark: lighten(#000, 20%); // #333
 @gray: lighten(#000, 33.5%); // #555
 @gray-light: lighten(#000, 60%); // #999
 @gray-lighter: lighten(#000, 93.5%); // #eee
 @gray-lightest: lightest(#000, 99%);
-
 @syntax_coloring_background: lighten(#000, 70%); 
 @syntax_coloring_dark: #000;
 @syntax_coloring_medium_dark: lighten(#000, 20%); 
 @syntax_coloring_medium: lighten(#000, 45%); 
 @syntax_coloring_light: lighten(#000, 85%);
 
-
 // Brand colors
-// -------------------------
 @brand-primary: #428bca;
 @brand-success: #5cb85c;
 @brand-warning: #f0ad4e;
 @brand-danger: #d9534f;
 @brand-info: #5bc0de;
 
-// My variables
-@black: #000;
+// --------------------------
+// My Variables                                 |
+// --------------------------
 @measure: 15px;
+
+@black: #000;
+
 @white: #fff;
+@altwhite: #ececec;
 
+@dim_blue: #6c7f8b;
+@dim_red: #8a6361;
+@dim_green: #738773;
 
-
+// --------------------------
+// Common Styles                            |
+// --------------------------
 body {
     background-color: @black;
     text-align: center;
+
     a {
         color: @black;
         font-weight: bold;
     }
+
     p {
         text-align: justify;
     }
+
+    pre {
+      text-align: left;
+    }
+
+    footer {
+        padding-top: @measure * 2;
+        padding-bottom: @measure * 2;
+        text-align: center;
+    }
+
+    #header_quotes {
+        padding-top: @measure * 2;
+    }
+
     .main_container {
         background-color: @white;
         min-width: 400px;
     }
+
     .page_heading {
         text-align: center;
     }
+
     .quotes {
         display: none;
+        margin: auto;
     }
-    #header_quotes {
-        padding-top: @measure * 2;
-        padding-bottom: @measure * 2;
-    }
+
     .content_container {
-        padding-top: @measure;
         padding-bottom: @measure;
         min-width: 400px;
-    } 
-    footer {
-    //background-color: @gray-lighter;
-        padding-top: @measure * 2;
-        padding-bottom: @measure * 2;
-    }  
+    }
+
     .curly_brace {
         text-align: left;
     }
+
+    .github_color, .linkedin_color, .mail_color, .twitter_color, 
+    .obj-c_color, .swift_color, .ruby_color {
+        display: none;
+    }
+
+    .book {
+        padding: 20px;
+    }
+
+    .return {
+        font-weight: bold;
+    }
+
+    .icon {
+        text-align: center;
+    }
+
+    .top_icon {
+        text-align: center;
+    }
+
+  .left {
+    text-align: left;
+  }
+
+  .justify {
+    text-align: justify;
+  }
 }
 
+// ---------------------------
+// Home Styles                                   |
+// ---------------------------
+#body_home {
+    .content_container {
+        padding-top: @measure;
+        padding-bottom: @measure * 4;
+    }
 
+    .home_image {
+        padding-top: @measure * 2;
+    }
 
+    .home_images_bottom {
+        margin-top: @measure * 2;
+    }
+}
+
+// --------------------------
+// Tech Styles                                  |
+// --------------------------
 #body_tech {
+    ol {
+        text-align: justify;
+        li {
+            font-weight: bold;
+        }
+    }
+
+    p {
+        font-weight: normal;
+    }
+
+    .book_info {
+        text-align: center;
+    }
+
     .tab-pane {
         height: 400px;
         overflow: auto;
@@ -80,92 +164,89 @@ body {
         border-right: 2px solid @gray-lighter;
         border-bottom: 2px solid @gray-lighter;
     }
+
     .tech_img_left {
         padding-top: @measure;
         padding-bottom: @measure;
     }
+
     .tech_img_right {
         padding-top: @measure;
         padding-bottom: @measure;
     }
+
     .panel {
         text-align: left;
         border-radius: 15px;
     }
+
     .panel_syntax_default {
         background-color: @syntax_coloring_background;
         color: @white;
-        border-radius: 15px;  
+        border-radius: 15px;
     }
-    .syntax_coloring_light {
-        color: @syntax_coloring_light;
-    }
-    .syntax_coloring_medium {
-        color: @syntax_coloring_medium;
+
+    .well {
+        text-align: justify;
+        margin-left: 15px;
+        margin-right: 15px;
     } 
-    .syntax_coloring_medium_dark {
-        color: @syntax_coloring_medium_dark;
-    }
-    .syntax_coloring_dark {
-        color: @syntax_coloring_dark;  
-    }
 }
 
-
-
+// --------------------------
+// Novel Styles                                 |
+// --------------------------
 #body_novel {
     #novel_teaser_body {
-        margin-top: @measure * 2; 
+    margin-top: @measure * 2;
     }
+
     #novel_reviews_panel {
-        margin-top: @measure * 2; 
+    margin-top: @measure * 2;
     }
+
     .star_hover {
-        color: @brand-warning;
+    color: @brand-warning;
     }
+
     .link_hover {
-        color: @white;
+    color: @white;
     }
 }
 
-
-
-#body_contact {
-    .facebook_color, .github_color, .googleplus_color, .linkedin_color, .mail_color, .twitter_color {
-        display: none;
-    }
-}
-
-
+// --------------------------
+// Resume Styles                              |
+// --------------------------
 #body_resume { 
+
     #resume_background {
         background-color: #fff;
-    }    
+    }
+
     #resume_body {
         background-color: #fff;
-        margin-top: 60px;
         border-radius: 15px;
         border: 0.5px solid #000;
-        padding: 40px;
-        a, p {
-            text-align: center;
-        }    
-        a {
-            color: #0000ff;
-            font-weight: bold;
+        padding: @measure * 2;
+
+        a, p, ul, h3, h4 {
+            text-align: left;
         }
+
+        a {
+            color: #0000ff;        
+        }
+
         .resume_headers {
             text-align: left;
-            padding-bottom: 20px;
         }
-        .viterbo {
-            padding-top: 20px;
-        }
+
         .resume_experience {
             p {
-                text-align: justify;
+                text-align: left;
             }
         }
+
         .inner_category {
             font-weight: bold;
         }

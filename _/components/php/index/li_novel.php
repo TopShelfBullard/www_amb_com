@@ -3,5 +3,5 @@
         <a href="novel.php"><h1>NOVEL</h1></a>
     </li>
     <br>
-    <img  src="images/novel_light.png" alt="Cover image for A. Mitchell Bullard's debut novel" width="100%" class="novel_img">
+    <img  src="images/novel_light.png" alt="Cover image for A. Mitchell Bullard's debut novel" width="100%" class="<?=$img?> novel_img">
 </ul>

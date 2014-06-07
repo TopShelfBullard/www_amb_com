@@ -1,18 +1,32 @@
-<a href="http://bullardamitchell.wordpress.com/" target="_blank">
-    <h4 class="curly_brace">public class Blog</h4>
-</a>
-<h4 class="curly_brace">{</h4>
 
-<p>
-    All things tech are fair game in this geeky student/professional blog. I'll muse upon my own
-    education (formal as well as the hard-knock school of 'Just Jump In and Figure It Out Yourself'),
-    and I will drop advice for other students to take or discard.
-</p>
-<p>
-    As a new member of the professional programming community, I'll also drop some gems for
-    the geek tying to become more employable as well as the veteran employed who has forgotten
-    the awesomeness of what they are paid to do.
-</p>
+                <div class="row">
+                    <section class="col col-xxs-12 col-sm-8 col-md-7">
+                        <a href="http://bullardamitchell.wordpress.com/" target="_blank"><h3>public static blog</h3></a>
 
-<p>It should be awesome... and code heavy.</p>
-<h4 class="curly_brace">}</h4>
+                        <pre>
+public Blog techBlog(boolean isMobile, Reader you) {
+
+  OS os = isMobile ? "iOS" : "OS X";
+  CodeStyle style = "clean";
+  boolean testing = true;
+
+  Opinion bias = new Opinion(os, style, testing);
+  Reader reader = new Reader(you);
+
+  Blog techBlog = new Blog(bias, you);
+  return techBlog;
+
+}
+                        </pre>
+
+                    </section>
+                    <div class="col  col-xxs-12 hidden-sm hidden-md hidden-lg">
+                        <br>
+                        <img  src="images/profile.png" alt="A. Mitchell Bullard profile picture" width="70%">
+                    </div>
+
+                    <div class="col  hidden-xxs hidden-xs col-sm-4 col-md-5">
+                        <br>
+                        <img  src="images/profile.png" alt="A. Mitchell Bullard profile picture" width="100%">
+                    </div>
+                </div>

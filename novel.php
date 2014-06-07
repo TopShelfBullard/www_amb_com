@@ -12,6 +12,7 @@
         <?php include '_/components/php/common_content/navigation.php'; ?>
 
         <!-- content -->
+        <div class="row">
         <section class="content_container  container    col  col-xxs-12">
             <div id="novel_teaser" class="col-xss-12 col-sm-7 col-md-6 col-lg-6">
                 <div class="row">
@@ -130,7 +131,7 @@
             </section> <!-- novel_reviews_panel -->
 
         </section> <!-- content_container -->
-
+    </div>
         <!-- footer -->
         <footer>
             <hr>

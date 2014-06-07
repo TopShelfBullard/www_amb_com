@@ -25,12 +25,41 @@ $(document).ready(function() {
     var twitterBW = $(".twitter_bw");
     var twitterColor = $(".twitter_color");
 
+    var casper = $("#casper");
+    var casperBW = $(".casper_bw");
+    var casperColor = $(".casper_color");
+
+    var apple = $("#apple");
+    var appleBW = $(".apple_bw");
+    var appleColor = $(".apple_color");
+
+    var bootstrap = $("#bootstrap");
+    var bootstrapBW = $(".bootstrap_bw");
+    var bootstrapColor = $(".bootstrap_color");
+
+    var java = $("#java");
+    var javaBW = $(".java_bw");
+    var javaColor = $(".java_color");
+
+    var objc = $("#obj-c");
+    var objcBW = $(".obj-c_bw");
+    var objcColor = $(".obj-c_color");
+
+    var swift = $("#swift");
+    var swiftBW = $(".swift_bw");
+    var swiftColor = $(".swift_color");
+
+    var ruby = $("#ruby");
+    var rubyBW = $(".ruby_bw");
+    var rubyColor = $(".ruby_color");
+
     hoverEffect(facebook, facebookBW, facebookColor);
     hoverEffect(github, githubBW, githubColor);
     hoverEffect(googleplus, googleplusBW, googleplusColor);
     hoverEffect(linkedin, linkedinBW, linkedinColor);
     hoverEffect(mail, mailBW, mailColor);
     hoverEffect(twitter, twitterBW, twitterColor);
+
     starAnimation();
 });
 
@@ -46,7 +75,7 @@ function getNewQuoteForHeader() {
     quoteString = "#quote" + number;
     quote = $(quoteString);
 
-    quote.fadeIn(1000).delay(20000).fadeOut(1000, function() {
+    quote.fadeIn(1000).delay(15000).fadeOut(1000, function() {
         getNewQuoteForHeader();
     });
 }
@@ -55,11 +84,11 @@ function hoverEffect(id, bw, color) {
     id.hover(
         function() {
             bw.css("display", "none");
-            color.css("display", "inline");
+            color.css("display", "inherit");
         },
         function() {
             color.css("display", "none");
-            bw.css("display", "inline");
+            bw.css("display", "inherit");
         });
 }
 
