@@ -5,5 +5,5 @@
                                     <li>iOS</li>
                                     <li>Windows 7</li>
                                     <li>Ubuntu</li>
-                                    <li>VMware Fusion, Parallels</li>
+                                    <li>VMware Fusion</li>
                                 </ul>
