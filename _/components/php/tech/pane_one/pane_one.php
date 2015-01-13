@@ -1,11 +1,10 @@
 
-                    <h1>MY TOOLS</h1>
+                    <h1>TOOLS</h1>
 
                     <section class="tabbable tabs">
                         <ul class="nav nav-tabs">
-                            <li class="active"><a href="#pane_one_tab_one" data-toggle="tab">USING</a></li>
-                            <li><a href="#pane_one_tab_two" data-toggle="tab">LEARNING</a></li>
-                            <!-- <li><a href="#pane_one_tab_three" data-toggle="tab">Humility</a></li> -->
+                            <li class="active"><a href="#pane_one_tab_one" data-toggle="tab">LANGUAGES</a></li>
+                            <li><a href="#pane_one_tab_two" data-toggle="tab">SOFTWARE</a></li>
                         </ul>
                     </section>
 
