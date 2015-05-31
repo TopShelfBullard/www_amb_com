@@ -1,19 +1,28 @@
 
                                 <p>
                                     <span class="inner_category">
+                                        Curt Manufacturing&mdash;
+                                        <a href="http://www.curtmfg.com" target="blank">www.curtmfg.com</a>
+                                    </span>
+                                </p>
+
+                                <ul>
+                                    <li>Developed a Go application to merge the Curt Database with that of an acquired company.</li>
+                                </ul>
+
+                                <p>
+                                    <span class="inner_category">
                                         JAMF Software&mdash;
                                         <a href="http://www.jamfsoftware.com/" target="blank">www.jamfsoftware.com</a>
                                     </span>
                                 </p>
 
                                 <ul>
-                                    <li>Developed new features and improved the test coverage for the Altiris plugin in Java and JUnit.</li>
-                                    <li>Drastically lowered the cyclomatic complexity for the Altiris plugin.</li>
-                                    <li>Developed new features for Composer in Objective-C and gh-unit.</li>
+                                    <li>Sole Developer for the 3.2 and 3.21 release of the Altiris plugin to the Casper Suite.</li>
+                                    <li>Wrote Cucumber steps and Ruby implementation for the JAMF Binary integration tests.</li>
+                                    <li>Added new backend features and a new UI to the Composer app in the Casper Suite.</li>
                                     <li>Worked on the backlog for Composer, the Altiris plugin, the SCCM plugin, the JSS-to-JSS plugin, and the SIS Importer, fixing multiple defects in each.</li>
-                                    <li>Created manual testing plans for Composer, the Altiris plugin, the JSS-to-JSS plugin, and the SCCM plugin.</li>
-                                    <li>Worked on a large team in one week sprints to provide day one support of OS X Yosemite and iOS 8 for all of JAMF Software's products.</li>
-                                    <li>Implemented Cucumber scenarios for the JAMF Binary.</li>
+                                    <li>Composed and executed QA test plans for Composer, Altiris, SCCM, and the JSS-to-JSS plugin</li>
                                 </ul>
 
                                 <p>

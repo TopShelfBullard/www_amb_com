@@ -3,7 +3,7 @@
                                 <ul>
                                     <li>Associate Degree&mdash;Software Development
                                     <br>
-                                    Credits: 59/68&mdash;GPA 3.4</li>
+                                    Credits: 65/68&mdash;GPA 3.4</li>
                                 </ul>
                                 <br>
                                 <p class="viterbo"><span class="inner_category">Viterbo University</span></p>
