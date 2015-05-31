@@ -5,6 +5,8 @@
                                     <hr>
                                     <?php include '_/components/php/tech/pane_one/ruby.php'; ?>
                                     <hr>
+                                    <?php include '_/components/php/tech/pane_one/go.php'; ?>
+                                    <hr>
                                     <?php include '_/components/php/tech/pane_one/objective_c.php'; ?>
                                     <hr>
                                     <?php include '_/components/php/tech/pane_one/java.php'; ?>
