@@ -34,7 +34,7 @@ function starAnimation() {
         });
 }
 
-$(document).ready(function() {
+$(function() {
     $("#quote5").css("display", "none");
 
     getNewQuoteForHeader(0);
